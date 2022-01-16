@@ -1,0 +1,15 @@
+          Graph | 'karate'
+           Type | '---'
+          Nodes | 34 (0)
+          Edges | 78 (0)
+         Degree | 4.6 (1, 17)
+     Components | 100.0% (1)
+           Time | 0.0 sec
+
+          Graph | 'karate'
+      Algorithm | 'girvan newman'
+       Clusters | 2
+           Time | 0.0 sec
+
+          Total | 0.0 sec
+
