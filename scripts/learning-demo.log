@@ -1,0 +1,26 @@
+          Graph | 'karate'
+           Type | '---'
+          Nodes | 34 (0)
+          Edges | 78 (0)
+         Degree | 4.6 (1, 17)
+     Components | 100.0% (1)
+           Time | 0.0 sec
+
+          Graph | 'java'
+           Type | '---'
+          Nodes | 1,516 (0)
+          Edges | 10,049 (0)
+         Degree | 13.3 (1, 1,315)
+     Components | 100.0% (1)
+           Time | 0.0 sec
+
+          Graph | 'directors'
+           Type | '---'
+          Nodes | 1,421 (0)
+          Edges | 3,855 (0)
+         Degree | 5.4 (1, 34)
+     Components | 60.1% (125)
+           Time | 0.0 sec
+
+          Total | 74.4 sec
+

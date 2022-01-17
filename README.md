@@ -41,6 +41,7 @@ All networks are available in Pajek format.
 + [Game of Thrones character kills network](https://github.com/lovre/netpy22/blob/master/nets/got-kills.net) (284 nodes)
 + [Ljubljana public bus transport network](https://github.com/lovre/netpy22/blob/master/nets/lpp.net) (416 nodes)
 + [US airplane traffic transport network](https://github.com/lovre/netpy22/blob/master/nets/transport.net) (1,323 nodes)
++ [Norwegian boards of directors network](https://github.com/lovre/netpy22/blob/master/nets/directors.net) (1,421 nodes)
 + [Java software class dependency network](https://github.com/lovre/netpy22/blob/master/nets/java.net) (1,516 nodes)
 + [Ingredients network by common compounds](https://github.com/lovre/netpy22/blob/master/nets/ingredients.net) (1,525 nodes)
 + [Map of Darknet from Tor network](https://github.com/lovre/netpy22/blob/master/nets/darknet.net) (7,178 nodes)
