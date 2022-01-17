@@ -47,7 +47,7 @@ def info(G):
 
 tic = time()
 
-for name in ['karate', 'java', 'directors']:
+for name in ['karate', 'sicris', 'directors', 'java']:
 
   # Constructs a graph of real network
 
@@ -91,7 +91,7 @@ for name in ['karate', 'java', 'directors']:
   # Computes node embeddings using node2vec
 
   dims = 32
-  node2vec = Node2Vec(G, dimensions = dims, workers = 8, quiet = True)
+  node2vec = Node2Vec(G, dimensions = dims, p = 1, q = 1, workers = 8, quiet = True)
   node2vec = node2vec.fit().wv
   
   # Writes node embeddings to tab-separated file

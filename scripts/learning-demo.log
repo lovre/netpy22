@@ -6,12 +6,12 @@
      Components | 100.0% (1)
            Time | 0.0 sec
 
-          Graph | 'java'
+          Graph | 'sicris'
            Type | '---'
-          Nodes | 1,516 (0)
-          Edges | 10,049 (0)
-         Degree | 13.3 (1, 1,315)
-     Components | 100.0% (1)
+          Nodes | 680 (138)
+          Edges | 1,607 (0)
+         Degree | 4.7 (0, 42)
+     Components | 69.9% (160)
            Time | 0.0 sec
 
           Graph | 'directors'
@@ -22,5 +22,13 @@
      Components | 60.1% (125)
            Time | 0.0 sec
 
-          Total | 74.4 sec
+          Graph | 'java'
+           Type | '---'
+          Nodes | 1,516 (0)
+          Edges | 10,049 (0)
+         Degree | 13.3 (1, 1,315)
+     Components | 100.0% (1)
+           Time | 0.0 sec
+
+          Total | 81.1 sec
 
