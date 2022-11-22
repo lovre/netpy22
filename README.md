@@ -6,24 +6,28 @@
 
 ###### Workshop schedule
 
-Tuesday, 18th January 2022 at 12:15 PM ([Zoom](https://uni-lj-si.zoom.us/j/92960740609))
+Saturday, 3rd December 2022, 9:00--16:00 (with breaks and lunch)
+
+###### Workshop location
+
+Lecture room 3 at [UL FRI](http://www.fri.uni-lj.si), Večna pot 113, Ljubljana, Slovenia
 
 ###### High-level description
 
-This workshop is primarily aimed at Python programmers, either academics, professionals or students, that wish to learn the basics of modern network science and practical analyses of real networks, such as social, information and biological networks. Familiarity with the basics of probability theory and statistics, linear algebra, and machine learning is strongly encouraged.
+This workshop is primarily aimed at Python programmers, either academics, professionals or students, that wish to learn the basics of modern network science and practical analyses of real networks such as social and information networks. Familiarity with the basics of probability theory and statistics, linear algebra, and machine learning is strongly encouraged.
 
 The workshop is based on masters level course [Network Analysis](https://lovro.fri.uni-lj.si/posters/frinets.pdf) offered at the University of Ljubljana, Faculty of Computer and Information Science.
 
 ###### Recommended prerequisites
 
-It is recommended that attendees bring a laptop with working installation of [Python](http://www.python.org), [NetworkX](http://networkx.github.io), [CDlib](http://cdlib.readthedocs.io) and [node2vec](https://github.com/eliorc/node2vec) packages. Alternatively, you can work with any other network analysis package such as [igraph](http://igraph.org), [graph-tool](http://graph-tool.skewed.de) or [SNAP.py](http://snap.stanford.edu/snappy/). For visualization of smaller networks, it is recommended to install some network analysis software such as [Gephi](http://gephi.org) or [visone](http://visone.info).
+It is recommended that attendees bring a laptop with a working installation of [Python](http://www.python.org), and in particular [NetworkX](http://networkx.github.io), [CDlib](http://cdlib.readthedocs.io) and [node2vec](https://github.com/eliorc/node2vec) packages. Alternatively, you can work with any other network analysis package such as [igraph](http://igraph.org), [graph-tool](http://graph-tool.skewed.de) or [SNAP.py](http://snap.stanford.edu/snappy/). For visualization of smaller networks, it can be useful to have an installation of some network analysis software such as [Gephi](http://gephi.org) or [visone](http://visone.info).
 
 ###### Tentative syllabus
-1. From classical graph theory to **modern network science** (15 min)
-2. **Large-scale structure** of real networks and **graph models** (45 min)
-3. Measures of **node importance** and **link analysis** algorithms (45 min)
-4. Network **community structure**, blockmodeling and **core-periphery** (45 min)
-5. Network **visualization**, **machine learning** and some applications (45 min)
+1. From classical graph theory to **modern network science** (20 min)
+2. **Large-scale structure** of real networks and **graph models** (60+20 min)
+3. Measures of **node importance** and **link analysis** algorithms (45+15 min)
+4. Network **community structure**, blockmodeling and **core-periphery** (60+20 min)
+5. Network **visualization**, **machine learning** and some applications (45+15 min)
 
 + **Hands-on**: Abstraction, centrality, communities, visualization, learning etc. 
 
@@ -69,9 +73,9 @@ Introduction of networks and selected **motivational examples**. From **classica
 
 ###### Lecture slides
 
-+ [**Networks introduction and examples**](https://github.com/lovre/netpy22/blob/master/lectures/01-intro.pdf)
-+ [**Historical development of network science**](https://github.com/lovre/netpy22/blob/master/lectures/02-history.pdf)
-+ [**Network perspectives through science**](https://github.com/lovre/netpy22/blob/master/lectures/03-perspects.pdf) (tentative)
++ [**Networks introduction and examples**](https://github.com/lovre/netpy22/blob/master/lectures/1-1-intro.pdf)
++ [**Historical development of network science**](https://github.com/lovre/netpy22/blob/master/lectures/1-2-history.pdf)
++ [**Network perspectives through science**](https://github.com/lovre/netpy22/blob/master/lectures/1-3-perspects.pdf) (later on)
 
 ###### Book chapters
 
@@ -104,10 +108,10 @@ Classical **graph theory** and modern **network analysis**. **Random graphs** an
 
 ###### Lecture slides
 
-+ [**Graph theory and network analysis**](https://github.com/lovre/netpy22/blob/master/lectures/04-networkology.pdf)
-+ [**Random graphs and network structure**](https://github.com/lovre/netpy22/blob/master/lectures/05-randoms.pdf)
-+ [**Scale-free and small-world networks**](https://github.com/lovre/netpy22/blob/master/lectures/06-models.pdf) (tentative)
-+ [**Network representations, formats and data**](https://github.com/lovre/netpy22/blob/master/lectures/07-represent.pdf)
++ [**Graph theory and network analysis**](https://github.com/lovre/netpy22/blob/master/lectures/2-1-networkology.pdf)
++ [**Random graphs and network structure**](https://github.com/lovre/netpy22/blob/master/lectures/2-2-randoms.pdf)
++ [**Scale-free and small-world network models**](https://github.com/lovre/netpy22/blob/master/lectures/2-3-models.pdf)
++ [**Network representations, formats and data**](https://github.com/lovre/netpy22/blob/master/lectures/2-4-represent.pdf)
 
 ###### Hands-on analysis
 
@@ -151,9 +155,9 @@ Node importance and **measures of centrality**, i.e. clustering coefficient, spe
 
 ###### Lecture slides
 
-+ [**Node importance and measures of centrality**](https://github.com/lovre/netpy22/blob/master/lectures/08-centrality.pdf)
-+ [**Link analysis algorithms for web page importance**](https://github.com/lovre/netpy22/blob/master/lectures/09-analysis.pdf) (tentative)
-+ [**Link importance and measures of bridging**](https://github.com/lovre/netpy22/blob/master/lectures/10-bridging.pdf) (tentative)
++ [**Node importance and measures of centrality**](https://github.com/lovre/netpy22/blob/master/lectures/3-1-centrality.pdf)
++ [**Link analysis algorithms for web page importance**](https://github.com/lovre/netpy22/blob/master/lectures/3-2-analysis.pdf)
++ [**Link importance and measures of bridging**](https://github.com/lovre/netpy22/blob/master/lectures/3-3-bridging.pdf) (tentative)
 
 ###### Hands-on analysis
 
@@ -190,10 +194,10 @@ Network **community structure**, blockmodeling and **core-periphery structure**.
 
 ###### Lecture slides
 
-+ [**Node clustering and community structure**](https://github.com/lovre/netpy22/blob/master/lectures/11-community.pdf)
-+ [**Graph partitioning and community detection**](https://github.com/lovre/netpy22/blob/master/lectures/12-clustering.pdf)
-+ [**Blockmodeling and block models**](https://github.com/lovre/netpy22/blob/master/lectures/13-blockmodeling.pdf) (tentative)
-+ [**Core-periphery decomposition**](https://github.com/lovre/netpy22/blob/master/lectures/14-cores.pdf) (tentative)
++ [**Node clustering and community structure**](https://github.com/lovre/netpy22/blob/master/lectures/4-1-community.pdf)
++ [**Graph partitioning and community detection**](https://github.com/lovre/netpy22/blob/master/lectures/4-2-clustering.pdf)
++ [**Blockmodeling and stochastic block models**](https://github.com/lovre/netpy22/blob/master/lectures/4-3-blockmodeling.pdf)
++ [**Core-periphery decomposition**](https://github.com/lovre/netpy22/blob/master/lectures/4-4-cores.pdf) (tentative)
 
 ###### Hands-on analysis
 
@@ -238,10 +242,10 @@ Force-directed node layouts and **network visualization**. Modern **machine lear
 
 ###### Lecture slides
 
-+ [**Network layout and visualization**](https://github.com/lovre/netpy22/blob/master/lectures/15-visuals.pdf)
-+ [**Machine learning with network data**](https://github.com/lovre/netpy22/blob/master/lectures/16-learning.pdf)
-+ [**Insurance fraud detection**](https://github.com/lovre/netpy22/blob/master/lectures/1x-fraud.pdf) (application)
-+ [**Tracking scientific knowledge**](https://github.com/lovre/netpy22/blob/master/lectures/1y-science.pdf) (application)
++ [**Network layout and visualization**](https://github.com/lovre/netpy22/blob/master/lectures/5-1-visuals.pdf)
++ [**Machine learning with network data**](https://github.com/lovre/netpy22/blob/master/lectures/5-2-learning.pdf)
++ [**Insurance fraud detection**](https://github.com/lovre/netpy22/blob/master/lectures/5-x-fraud.pdf) (application)
++ [**Tracking scientific knowledge**](https://github.com/lovre/netpy22/blob/master/lectures/5-y-science.pdf) (application)
 
 ###### Demo analysis
 
