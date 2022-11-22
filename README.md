@@ -6,7 +6,7 @@
 
 ###### Workshop schedule
 
-Saturday, 3rd December 2022, 9:00--16:00 (with breaks and lunch)
+Saturday, 3rd December 2022, 9:00-16:00 (with breaks and lunch)
 
 ###### Workshop location
 
