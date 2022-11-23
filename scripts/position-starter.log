@@ -3,8 +3,7 @@
           Nodes | 17,577 (0)
           Edges | 287,074 (0)
          Degree | 32.7 (1, 784)
-     Components | 99.3% (19)
-           Time | 0.8 sec
+        Density | 0.00185848
+           Time | 0.6 sec
 
-          Total | 9.1 sec
-
+          Total | 9.0 sec

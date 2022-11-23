@@ -3,62 +3,63 @@
           Nodes | 284 (0)
           Edges | 226 (45)
          Degree | 1.6 (1, 11)
+        Density | 0.00562385
      Components | 6.7% (103)
            Time | 0.0 sec
 
           Graph | 'got-kills'
      Centrality | 'degree'
      0.03886926 | 'Jon Snow' (11)
-     0.03533569 | 'Sandor Clegane' (10)
      0.03533569 | 'Arya Stark' (10)
+     0.03533569 | 'Sandor Clegane' (10)
      0.02826855 | 'Ramsay Bolton' (8)
      0.02473498 | 'Daenerys Targaryen' (7)
-     0.02120141 | 'Daario Naharis' (6)
      0.02120141 | 'Cersei' (6)
-     0.01766784 | 'Jorah Mormont' (5)
+     0.02120141 | 'Daario Naharis' (6)
      0.01766784 | 'Brienne' (5)
+     0.01766784 | 'Jorah Mormont' (5)
      0.01766784 | 'Ygritte' (5)
-     0.01413428 | 'Ned Stark' (4)
-     0.01413428 | 'Jamie Lannister' (4)
-     0.01413428 | 'Pyat Pree' (4)
      0.01413428 | 'Dagmer' (4)
      0.01413428 | 'Drogon' (4)
+     0.01413428 | 'Jamie Lannister' (4)
+     0.01413428 | 'Ned Stark' (4)
+     0.01413428 | 'Pyat Pree' (4)
 
           Graph | 'got-kills'
      Centrality | 'clustering'
-     0.00000000 | 'Waymar Royce' (2)
-     0.00000000 | 'Gared' (2)
-     0.00000000 | 'Will' (1)
-     0.00000000 | 'Ned Stark' (4)
-     0.00000000 | 'Lord Jon Arryn' (2)
-     0.00000000 | 'Catspaw assassin' (1)
-     0.00000000 | 'Summer' (3)
-     0.00000000 | 'Mycah' (1)
+     0.00000000 | 'Jon Snow' (11)
+     0.00000000 | 'Arya Stark' (10)
      0.00000000 | 'Sandor Clegane' (10)
-     0.00000000 | 'Lady' (1)
-     0.00000000 | 'Ser Hugh of the Vale' (2)
-     0.00000000 | 'Kurleket' (1)
-     0.00000000 | 'Hill Tribesmen' (2)
-     0.00000000 | 'Ser Willis Wode' (1)
-     0.00000000 | 'Wyl' (1)
+     0.00000000 | 'Ramsay Bolton' (8)
+     0.00000000 | 'Daenerys Targaryen' (7)
+     0.00000000 | 'Cersei' (6)
+     0.00000000 | 'Daario Naharis' (6)
+     0.00000000 | 'Brienne' (5)
+     0.00000000 | 'Jorah Mormont' (5)
+     0.00000000 | 'Ygritte' (5)
+     0.00000000 | 'Dagmer' (4)
+     0.00000000 | 'Drogon' (4)
+     0.00000000 | 'Jamie Lannister' (4)
+     0.00000000 | 'Ned Stark' (4)
+     0.00000000 | 'Pyat Pree' (4)
 
           Graph | 'got-kills'
      Centrality | 'μ-clustering'
-     0.00000000 | 'Waymar Royce' (2)
-     0.00000000 | 'Gared' (2)
-     0.00000000 | 'Will' (1)
-     0.00000000 | 'Ned Stark' (4)
-     0.00000000 | 'Lord Jon Arryn' (2)
-     0.00000000 | 'Catspaw assassin' (1)
-     0.00000000 | 'Summer' (3)
-     0.00000000 | 'Mycah' (1)
+     0.00000000 | 'Jon Snow' (11)
+     0.00000000 | 'Arya Stark' (10)
      0.00000000 | 'Sandor Clegane' (10)
-     0.00000000 | 'Lady' (1)
-     0.00000000 | 'Ser Hugh of the Vale' (2)
-     0.00000000 | 'Kurleket' (1)
-     0.00000000 | 'Hill Tribesmen' (2)
-     0.00000000 | 'Ser Willis Wode' (1)
-     0.00000000 | 'Wyl' (1)
+     0.00000000 | 'Ramsay Bolton' (8)
+     0.00000000 | 'Daenerys Targaryen' (7)
+     0.00000000 | 'Cersei' (6)
+     0.00000000 | 'Daario Naharis' (6)
+     0.00000000 | 'Brienne' (5)
+     0.00000000 | 'Jorah Mormont' (5)
+     0.00000000 | 'Ygritte' (5)
+     0.00000000 | 'Dagmer' (4)
+     0.00000000 | 'Drogon' (4)
+     0.00000000 | 'Jamie Lannister' (4)
+     0.00000000 | 'Ned Stark' (4)
+     0.00000000 | 'Pyat Pree' (4)
 
           Graph | 'got-kills'
      Centrality | 'eigenvector'
@@ -67,12 +68,12 @@
      0.22855441 | 'Olly' (2)
      0.21757201 | 'Karl Tanner' (2)
      0.21757201 | 'Styr' (2)
-     0.19904944 | 'Qhorin Halfhand' (1)
-     0.19904944 | 'Orell' (1)
+     0.19904944 | 'First Builder Othell Yarwyck' (1)
+     0.19904944 | 'First Steward Bowen Marsh' (1)
      0.19904944 | 'King Mance Rayder' (1)
      0.19904944 | 'Lord Janos Slynt' (1)
-     0.19904944 | 'First Steward Bowen Marsh' (1)
-     0.19904944 | 'First Builder Othell Yarwyck' (1)
+     0.19904944 | 'Orell' (1)
+     0.19904944 | 'Qhorin Halfhand' (1)
      0.19904944 | 'Ser Alliser Thorne' (1)
      0.10112199 | 'Ygritte' (5)
      0.06348221 | 'Craster' (1)
@@ -85,15 +86,15 @@
      0.01755129 | 'Arya Stark' (10)
      0.01388802 | 'Ramsay Bolton' (8)
      0.01248100 | 'Daenerys Targaryen' (7)
-     0.01161410 | 'Daario Naharis' (6)
      0.01161410 | 'Cersei' (6)
+     0.01161410 | 'Daario Naharis' (6)
      0.00999550 | 'Brienne' (5)
      0.00963027 | 'Jorah Mormont' (5)
      0.00897252 | 'Ygritte' (5)
-     0.00837691 | 'Ned Stark' (4)
      0.00837691 | 'Jamie Lannister' (4)
-     0.00763359 | 'Pyat Pree' (4)
+     0.00837691 | 'Ned Stark' (4)
      0.00763359 | 'Drogon' (4)
+     0.00763359 | 'Pyat Pree' (4)
      0.00731303 | 'Dagmer' (4)
 
           Graph | 'got-kills'
@@ -107,12 +108,12 @@
      0.02601992 | 'Karl Tanner' (2)
      0.02601992 | 'Styr' (2)
      0.02544170 | 'Ygritte' (5)
-     0.02488862 | 'Qhorin Halfhand' (1)
-     0.02488862 | 'Orell' (1)
+     0.02488862 | 'White Walker Lieutenant' (3)
+     0.02488862 | 'First Builder Othell Yarwyck' (1)
+     0.02488862 | 'First Steward Bowen Marsh' (1)
      0.02488862 | 'King Mance Rayder' (1)
      0.02488862 | 'Lord Janos Slynt' (1)
-     0.02488862 | 'White Walker Lieutenant' (3)
-     0.02488862 | 'First Steward Bowen Marsh' (1)
+     0.02488862 | 'Orell' (1)
 
           Graph | 'got-kills'
      Centrality | 'betweenness'
@@ -128,15 +129,16 @@
      0.00042603 | 'Khal Drogo' (3)
      0.00042603 | 'Karl Tanner' (2)
      0.00042603 | 'Styr' (2)
-     0.00037591 | 'Pyat Pree' (4)
-     0.00037591 | 'Drogon' (4)
+     0.00037591 | 'Cersei' (6)
      0.00037591 | 'Daario Naharis' (6)
+     0.00037591 | 'Drogon' (4)
 
           Graph | 'lpp'
            Type | '---'
           Nodes | 416 (0)
           Edges | 566 (0)
          Degree | 2.7 (1, 14)
+        Density | 0.00655700
      Components | 100.0% (1)
            Time | 0.0 sec
 
@@ -144,37 +146,37 @@
      Centrality | 'degree'
      0.03373494 | 'gosposvetska' (14)
      0.02891566 | 'bavarski dvor' (12)
-     0.02650602 | 'razstavisce' (11)
      0.02650602 | 'ajdovscina' (11)
      0.02650602 | 'konzorcij' (11)
+     0.02650602 | 'razstavisce' (11)
      0.02409639 | 'drama' (10)
-     0.02409639 | 'tobacna' (10)
      0.02409639 | 'hajdrihova' (10)
+     0.02409639 | 'tobacna' (10)
      0.02168675 | 'bezigrad' (9)
      0.01927711 | 'askerceva' (8)
      0.01927711 | 'kino siska' (8)
+     0.01927711 | 'sentvid' (8)
      0.01927711 | 'stara cerkev' (8)
      0.01927711 | 'tivoli' (8)
-     0.01927711 | 'sentvid' (8)
      0.01686747 | 'ambrozev trg' (7)
 
           Graph | 'lpp'
      Centrality | 'clustering'
-     1.00000000 | 'na zalah' (2)
-     1.00000000 | 'kranjceva' (2)
-     1.00000000 | 'hrastje' (2)
-     1.00000000 | 'zadvor' (2)
-     1.00000000 | 'kpl' (2)
-     1.00000000 | 'rast' (2)
-     1.00000000 | 'pod golovcem' (2)
-     1.00000000 | 'pod kamno gorico' (2)
-     1.00000000 | 'opekarska' (2)
-     1.00000000 | 'zalog' (2)
-     1.00000000 | 'saturnus' (2)
-     1.00000000 | 'pot na fuzine' (2)
+     1.00000000 | 'btc-atlantis' (2)
      1.00000000 | 'dobrusa lipa' (2)
+     1.00000000 | 'hrastje' (2)
      1.00000000 | 'kolezija' (2)
      1.00000000 | 'kozarje' (2)
+     1.00000000 | 'kpl' (2)
+     1.00000000 | 'kranjceva' (2)
+     1.00000000 | 'na zalah' (2)
+     1.00000000 | 'opekarska' (2)
+     1.00000000 | 'pod golovcem' (2)
+     1.00000000 | 'pod kamno gorico' (2)
+     1.00000000 | 'pot na fuzine' (2)
+     1.00000000 | 'rast' (2)
+     1.00000000 | 'saturnus' (2)
+     1.00000000 | 'zadvor' (2)
 
           Graph | 'lpp'
      Centrality | 'μ-clustering'
@@ -186,13 +188,13 @@
      1.60000000 | 'hajdrihova' (10)
      1.33333333 | 'flajsmanova' (3)
      1.33333333 | 'kodrova' (3)
-     1.33333333 | 'roska' (3)
      1.33333333 | 'nove jarse' (3)
      1.33333333 | 'nove jarse - sm.' (3)
+     1.33333333 | 'roska' (3)
      1.20000000 | 'tobacna' (10)
      1.20000000 | 'bavarski dvor (kozolec)' (5)
-     1.20000000 | 'tabor' (5)
      1.20000000 | 'mirje' (5)
+     1.20000000 | 'tabor' (5)
 
           Graph | 'lpp'
      Centrality | 'eigenvector'
@@ -271,6 +273,7 @@
           Nodes | 1,525 (18)
           Edges | 221,777 (0)
          Degree | 290.9 (0, 989)
+        Density | 0.19084979
      Components | 98.1% (22)
            Time | 0.1 sec
 
@@ -294,21 +297,21 @@
 
           Graph | 'ingredients'
      Centrality | 'clustering'
-     1.00000000 | 'abies_alba' (22)
-     1.00000000 | 'abies_alba_pine_needle' (48)
-     1.00000000 | 'abies_balsamea_oil' (175)
-     1.00000000 | 'abies_canadensis' (22)
-     1.00000000 | 'abies_concolor' (22)
-     1.00000000 | 'acacia_dealbata' (209)
-     1.00000000 | 'acacia_farnesiana_oil' (12)
-     1.00000000 | 'acacia_flower_oil' (74)
-     1.00000000 | 'achasma_walang' (13)
-     1.00000000 | 'achillea_micrantha_oil' (84)
-     1.00000000 | 'aconitum_napellus' (3)
-     1.00000000 | 'agaricus' (9)
-     1.00000000 | 'agastache_formosana' (31)
-     1.00000000 | 'agastache_rugosa' (31)
-     1.00000000 | 'agathosma_gnidioides_leaf_oil' (5)
+     1.00000000 | 'andropogon_intermedius' (298)
+     1.00000000 | 'pinus_jeffreyi_terpentine' (297)
+     1.00000000 | 'pinus_sabiniana_terpentine' (297)
+     1.00000000 | 'artemisia_camphorata' (282)
+     1.00000000 | 'violet' (282)
+     1.00000000 | 'pinus_jeffreyi' (275)
+     1.00000000 | 'cryptomeria_japonica' (264)
+     1.00000000 | 'tobacco_flower' (264)
+     1.00000000 | 'honey_fungus' (262)
+     1.00000000 | 'citrus_flower_oil' (260)
+     1.00000000 | 'citrus_leaf_oil' (260)
+     1.00000000 | 'magnolia_oil' (260)
+     1.00000000 | 'orange_leaf_oil' (260)
+     1.00000000 | 'juniperus_phoenicea_oil' (257)
+     1.00000000 | 'petitgrain_lime_oil' (257)
 
           Graph | 'ingredients'
      Centrality | 'μ-clustering'
@@ -361,8 +364,8 @@
      0.00201210 | 'white_wine' (934)
      0.00198206 | 'fermented_tea' (950)
      0.00197149 | 'rooibus_tea' (948)
-     0.00196082 | 'seychelles_tea' (947)
      0.00196082 | 'ceylon_tea' (947)
+     0.00196082 | 'seychelles_tea' (947)
 
           Graph | 'ingredients'
      Centrality | 'closeness'
@@ -405,8 +408,9 @@
           Nodes | 17,577 (0)
           Edges | 287,074 (0)
          Degree | 32.7 (1, 784)
+        Density | 0.00185848
      Components | 99.3% (19)
-           Time | 0.3 sec
+           Time | 0.2 sec
 
           Graph | 'imdb'
      Centrality | 'degree'
@@ -428,21 +432,21 @@
 
           Graph | 'imdb'
      Centrality | 'clustering'
-     1.00000000 | 'Dayan, Assi' (3)
-     1.00000000 | 'Chun, Charles' (8)
-     1.00000000 | 'Zacher, Rolf' (2)
-     1.00000000 | 'Savary, Jeanne' (9)
-     1.00000000 | 'Espinosa, Ace' (2)
-     1.00000000 | 'Boj�rquez, Freddy' (3)
-     1.00000000 | 'Lloyd, Emily' (2)
-     1.00000000 | 'Korm�kur, Baltasar' (2)
-     1.00000000 | 'Vischer, Lisa' (3)
-     1.00000000 | 'Padilla, Rustom' (2)
-     1.00000000 | 'Sprinkle, Annie' (6)
-     1.00000000 | 'Butler, Yancy' (2)
-     1.00000000 | 'Gullette, Sean' (3)
-     1.00000000 | 'Theissen, Felix' (8)
-     1.00000000 | 'Brooks, Joel (I)' (2)
+     1.00000000 | 'Rachner, Jonathan' (46)
+     1.00000000 | 'Doucette, Jeff' (23)
+     1.00000000 | 'Andersson, Kris' (20)
+     1.00000000 | 'Willis, Susan' (20)
+     1.00000000 | 'Kurtis, Bill' (19)
+     1.00000000 | 'Cantillana, N�stor' (16)
+     1.00000000 | 'Faris, Anna' (15)
+     1.00000000 | 'Tolkien, J.R.R.' (15)
+     1.00000000 | 'Kurata, Tetsuo' (13)
+     1.00000000 | 'Margera, Jess' (12)
+     1.00000000 | 'Raab, Chris' (12)
+     1.00000000 | 'Rakeyohn' (12)
+     1.00000000 | 'Cox, Julie (I)' (11)
+     1.00000000 | 'Galindo, Rudy' (11)
+     1.00000000 | 'Le Besco, Ma�wenn' (11)
 
           Graph | 'imdb'
      Centrality | 'μ-clustering'
@@ -534,4 +538,4 @@
      0.01335446 | 'Knaup, Herbert' (63)
      0.01328348 | 'Goldberg, Whoopi' (398)
 
-          Total | 3457.5 sec
+          Total | 3364.8 sec
