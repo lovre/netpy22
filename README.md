@@ -115,7 +115,7 @@ Classical **graph theory** and modern **network analysis**. **Random graphs** an
 
 ###### Hands-on analysis
 
-+ [**Network structure and random graphs**](https://github.com/lovre/netpy22/blob/master/labs/structure.pdf) ([starter.py](https://github.com/lovre/netpy22/blob/master/scripts/structure-starter.py))
++ [**Network structure and random graphs**](https://github.com/lovre/netpy22/blob/master/labs/structure.pdf) ([structure-starter.py](https://github.com/lovre/netpy22/blob/master/scripts/structure-starter.py))
 
 ###### Book chapters
 
@@ -161,7 +161,7 @@ Node importance and **measures of centrality**, i.e. clustering coefficient, spe
 
 ###### Hands-on analysis
 
-+ [**IMDb actors collaboration network**](https://github.com/lovre/netpy22/blob/master/labs/position.pdf) ([starter.py](https://github.com/lovre/netpy22/blob/master/scripts/position-starter.py))
++ [**IMDb actors collaboration network**](https://github.com/lovre/netpy22/blob/master/labs/position.pdf) ([position-starter.py](https://github.com/lovre/netpy22/blob/master/scripts/position-starter.py))
 
 ###### Book chapters
 
@@ -201,7 +201,7 @@ Network **community structure**, blockmodeling and **core-periphery structure**.
 
 ###### Hands-on analysis
 
-+ [**Community structure and k-cores**](https://github.com/lovre/netpy22/blob/master/labs/clusters.pdf) ([starter.py](https://github.com/lovre/netpy22/blob/master/scripts/clusters-starter.py))
++ [**Community structure and k-cores**](https://github.com/lovre/netpy22/blob/master/labs/clusters.pdf) ([clusters-starter.py](https://github.com/lovre/netpy22/blob/master/scripts/clusters-starter.py))
 
 ###### Book chapters
 
@@ -249,7 +249,7 @@ Force-directed node layouts and **network visualization**. Modern **machine lear
 
 ###### Demo analysis
 
-+ Node features and embeddings ([demo.py](https://github.com/lovre/netpy22/blob/master/scripts/learning-demo.py), [demo.ows](https://github.com/lovre/netpy22/blob/master/scripts/learning-demo.ows))
++ Node features and embeddings ([learning-demo.py](https://github.com/lovre/netpy22/blob/master/scripts/learning-demo.py), [learning-demo.ows](https://github.com/lovre/netpy22/blob/master/scripts/learning-demo.ows))
 
 ###### Selected must-reads
 
