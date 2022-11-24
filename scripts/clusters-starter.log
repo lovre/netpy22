@@ -3,13 +3,15 @@
           Nodes | 34 (0)
           Edges | 78 (0)
          Degree | 4.6 (1, 17)
+        Density | 0.13903743
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'karate'
-      Algorithm | 'girvan newman'
-       Clusters | 2
+      Algorithm | 'betweenness' (100x)
+       Clusters | 2.0 x 17 (55.9%)
+              Q | 0.360
+            NMI | 0.836
            Time | 0.0 sec
 
-          Total | 0.0 sec
-
+          Total | 4.3 sec

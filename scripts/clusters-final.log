@@ -3,177 +3,386 @@
           Nodes | 34 (0)
           Edges | 78 (0)
          Degree | 4.6 (1, 17)
+        Density | 0.13903743
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'karate'
-      Algorithm | 'girvan newman'
-       Clusters | 2 (17.0)
-              Q | 0.359961
-            NMI | 0.836498
-            ARI | 0.882302
-           Time | 0.1 sec
-
-          Graph | 'women'
-           Type | '---'
-          Nodes | 32 (0)
-          Edges | 89 (0)
-         Degree | 5.6 (2, 14)
-     Components | 100.0% (1)
+      Algorithm | 'betweenness' (100x)
+       Clusters | 2.0 x 17 (55.9%)
+              Q | 0.360
+            NMI | 0.836
            Time | 0.0 sec
 
-          Graph | 'women'
-      Algorithm | 'girvan newman'
-       Clusters | 2 (16.0)
-              Q | 0.306211
-            NMI | 0.327667
-            ARI | 0.217448
-           Time | 0.1 sec
+          Graph | 'karate'
+      Algorithm | 'LPA' (100x)
+       Clusters | 3.0 x 11 (47.1%)
+              Q | 0.325
+            NMI | 0.445
+           Time | 0.0 sec
+
+          Graph | 'karate'
+      Algorithm | 'Louvain' (100x)
+       Clusters | 4.0 x 8 (36.8%)
+              Q | 0.415
+            NMI | 0.633
+           Time | 0.0 sec
+
+          Graph | 'karate'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 3.0 x 11 (50.0%)
+              Q | 0.402
+            NMI | 0.699
+           Time | 0.0 sec
 
           Graph | 'dolphins'
            Type | '---'
           Nodes | 62 (0)
           Edges | 159 (0)
          Degree | 5.1 (1, 12)
+        Density | 0.08408250
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'dolphins'
-      Algorithm | 'girvan newman'
-       Clusters | 2 (31.0)
-              Q | 0.378703
-            NMI | 0.888836
-            ARI | 0.934834
+      Algorithm | 'betweenness' (100x)
+       Clusters | 2.0 x 31 (66.1%)
+              Q | 0.379
+            NMI | 0.889
            Time | 0.1 sec
+
+          Graph | 'dolphins'
+      Algorithm | 'LPA' (100x)
+       Clusters | 6.0 x 10 (33.9%)
+              Q | 0.499
+            NMI | 0.527
+           Time | 0.0 sec
+
+          Graph | 'dolphins'
+      Algorithm | 'Louvain' (100x)
+       Clusters | 5.0 x 12 (29.2%)
+              Q | 0.520
+            NMI | 0.516
+           Time | 0.0 sec
+
+          Graph | 'dolphins'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 5.0 x 12 (32.3%)
+              Q | 0.525
+            NMI | 0.613
+           Time | 0.0 sec
+
+          Graph | 'women'
+           Type | '---'
+          Nodes | 32 (0)
+          Edges | 89 (0)
+         Degree | 5.6 (2, 14)
+        Density | 0.17943548
+     Components | 100.0% (1)
+           Time | 0.0 sec
+
+          Graph | 'women'
+      Algorithm | 'betweenness' (100x)
+       Clusters | 2.0 x 16 (56.2%)
+              Q | 0.306
+            NMI | 0.328
+           Time | 0.1 sec
+
+          Graph | 'women'
+      Algorithm | 'LPA' (100x)
+       Clusters | 2.0 x 16 (90.6%)
+              Q | 0.041
+            NMI | 0.072
+           Time | 0.0 sec
+
+          Graph | 'women'
+      Algorithm | 'Louvain' (100x)
+       Clusters | 3.3 x 10 (42.3%)
+              Q | 0.326
+            NMI | 0.294
+           Time | 0.0 sec
+
+          Graph | 'women'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 2.0 x 16 (53.1%)
+              Q | 0.320
+            NMI | 0.328
+           Time | 0.0 sec
 
           Graph | 'got-appearance'
            Type | '---'
           Nodes | 107 (0)
           Edges | 352 (0)
          Degree | 6.6 (1, 36)
+        Density | 0.06207018
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'got-appearance'
-      Algorithm | 'leiden'
-       Clusters | 6 (17.8)
-              Q | 0.493648
-            NMI | 0.000000
-            ARI | 0.000000
+      Algorithm | 'LPA' (100x)
+       Clusters | 5.0 x 21 (57.0%)
+              Q | 0.379
+            NMI | 0.000
            Time | 0.0 sec
 
-['Aerys', 'Jaime', 'Tyrion', 'Tywin', 'Amory', 'Oberyn', 'Cersei', 'Gregor', 'Joffrey', 'Balon', 'Loras', 'Bronn', 'Podrick', 'Sansa', 'Elia', 'Ilyn', 'Meryn', 'Pycelle', 'Shae', 'Varys', 'Qyburn', 'Renly', 'Tommen', 'Kevan', 'Margaery', 'Myrcella', 'Lancel', 'Olenna', 'Ellaria', 'Mace', 'Chataya', 'Doran', 'Walton']
+          Graph | 'got-appearance'
+      Algorithm | 'Leiden' (100x)
+       Clusters | 6.0 x 18 (30.8%)
+              Q | 0.494
+            NMI | 0.000
+           Time | 0.0 sec
+
+          Graph | 'got-appearance'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 7.0 x 15 (36.4%)
+              Q | 0.480
+            NMI | 0.000
+           Time | 0.0 sec
+
+['Aerys', 'Jaime', 'Robert', 'Tyrion', 'Tywin', 'Amory', 'Oberyn', 'Cersei', 'Gregor', 'Joffrey', 'Balon', 'Loras', 'Bronn', 'Podrick', 'Lysa', 'Sansa', 'Stannis', 'Elia', 'Ilyn', 'Meryn', 'Pycelle', 'Shae', 'Varys', 'Qyburn', 'Renly', 'Tommen', 'Kevan', 'Margaery', 'Myrcella', 'Jon Arryn', 'Lancel', 'Olenna', 'Marillion', 'Robert Arryn', 'Ellaria', 'Mace', 'Chataya', 'Doran', 'Walton']
 
           Graph | 'diseasome'
            Type | '---'
           Nodes | 117 (0)
           Edges | 489 (0)
          Degree | 8.4 (5, 45)
+        Density | 0.07206012
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'diseasome'
-      Algorithm | 'leiden'
-       Clusters | 6 (19.5)
-              Q | 0.439721
-            NMI | 0.000000
-            ARI | 0.000000
+      Algorithm | 'LPA' (100x)
+       Clusters | 5.0 x 23 (78.6%)
+              Q | 0.201
+            NMI | 0.000
            Time | 0.0 sec
 
-['Glomerulonephritis, IGA', 'Mucocutaneous Lymph Node Syndrome', 'Osteitis Deformans', 'Barrett Esophagus', 'Liver Cirrhosis, Biliary', 'Urinary Bladder Neoplasms', 'Esophageal Neoplasms', "Fuchs' Endothelial Dystrophy", 'Meningeal Neoplasms', 'Glomerulosclerosis, Focal Segmental', 'Mediastinal Neoplasms', 'Spondylitis, Ankylosing', 'Crohn Disease', 'Arthritis, Psoriatic', 'Pulmonary Disease, Chronic Obstructive', 'Lupus Erythematosus, Systemic', 'Bile Duct Neoplasms', 'Adrenal Gland Neoplasms', 'Cholangitis, Sclerosing', 'Idiopathic Pulmonary Fibrosis', 'Tourette Syndrome', 'Cardiomyopathy, Dilated', 'Aortic Aneurysm, Abdominal', 'Glomerulonephritis, Membranous', 'Aortic Aneurysm, Thoracic', 'Dermatitis, Atopic', 'Neoplasms, Germ Cell and Embryonal', 'Salivary Gland Neoplasms', 'Fallopian Tube Neoplasms', 'Polycystic Ovary Syndrome', 'Jejunal Neoplasms']
+          Graph | 'diseasome'
+      Algorithm | 'Leiden' (100x)
+       Clusters | 6.0 x 20 (27.9%)
+              Q | 0.441
+            NMI | 0.000
+           Time | 0.0 sec
+
+          Graph | 'diseasome'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 6.0 x 20 (50.4%)
+              Q | 0.398
+            NMI | 0.000
+           Time | 0.0 sec
+
+['Breast Neoplasms', 'Glomerulonephritis, IGA', 'Testicular Neoplasms', 'Ovarian Neoplasms', 'Otosclerosis', 'Thymus Neoplasms', 'Gallbladder Neoplasms', 'Mucocutaneous Lymph Node Syndrome', 'Osteitis Deformans', 'Alopecia Areata', 'Barrett Esophagus', 'Liver Cirrhosis, Biliary', 'Urinary Bladder Neoplasms', 'Esophageal Neoplasms', "Fuchs' Endothelial Dystrophy", 'Pancreatic Neoplasms', 'Laryngeal Neoplasms', 'Vulvar Neoplasms', 'Retroperitoneal Neoplasms', 'Ureteral Neoplasms', 'Meningeal Neoplasms', 'Glomerulosclerosis, Focal Segmental', 'Spinal Cord Neoplasms', 'Mediastinal Neoplasms', 'Prostatic Neoplasms', 'Vascular Neoplasms', 'Spondylitis, Ankylosing', 'Crohn Disease', 'Arthritis, Psoriatic', 'Pulmonary Disease, Chronic Obstructive', 'Refractive Errors', 'Creutzfeldt-Jakob Syndrome', 'Lupus Erythematosus, Systemic', 'Behcet Syndrome', 'Mesothelioma', 'Bile Duct Neoplasms', 'Appendiceal Neoplasms', 'Adrenal Gland Neoplasms', 'Cholangitis, Sclerosing', 'Peripheral Nervous System Neoplasms', 'Arthritis, Gouty', 'Restless Legs Syndrome', 'Macular Degeneration', 'Idiopathic Pulmonary Fibrosis', 'Intracranial Aneurysm', 'Tourette Syndrome', 'Cardiomyopathy, Dilated', 'Aortic Aneurysm, Abdominal', 'Glomerulonephritis, Membranous', 'Aortic Aneurysm, Thoracic', 'Dermatitis, Atopic', 'Attention Deficit Disorder with Hyperactivity', 'Amyotrophic Lateral Sclerosis', 'Neoplasms, Germ Cell and Embryonal', 'Salivary Gland Neoplasms', 'Fallopian Tube Neoplasms', 'Head and Neck Neoplasms', 'Polycystic Ovary Syndrome', 'Jejunal Neoplasms']
 
           Graph | 'wars'
            Type | '---'
           Nodes | 180 (29)
           Edges | 1,247 (0)
          Degree | 13.9 (0, 66)
+        Density | 0.07740534
      Components | 80.0% (33)
            Time | 0.0 sec
 
           Graph | 'wars'
-      Algorithm | 'leiden'
-       Clusters | 38 (4.7)
-              Q | 0.638894
-            NMI | 0.000000
-            ARI | 0.000000
+      Algorithm | 'LPA' (100x)
+       Clusters | 38.0 x 5 (50.6%)
+              Q | 0.363
+            NMI | 0.000
            Time | 0.0 sec
 
-['ANT', 'ARG', 'BHM', 'BAR', 'BLZ', 'BOL', 'BRA', 'CAN', 'CHL', 'COL', 'COS', 'DMA', 'DOM', 'ECU', 'ELS', 'GRN', 'GUA', 'GUY', 'HAI', 'HON', 'JAM', 'MEX', 'NIC', 'PAN', 'PAR', 'PER', 'STK', 'STL', 'SVG', 'SUR', 'TRI', 'URU', 'VZA']
+          Graph | 'wars'
+      Algorithm | 'Leiden' (100x)
+       Clusters | 38.0 x 5 (18.3%)
+              Q | 0.639
+            NMI | 0.000
+           Time | 0.0 sec
+
+          Graph | 'wars'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 34.0 x 5 (50.0%)
+              Q | 0.401
+            NMI | 0.000
+           Time | 0.0 sec
+
+['AFG', 'ALB', 'ANT', 'ARG', 'ARM', 'AUS', 'AZE', 'BHM', 'BAR', 'BLR', 'BEL', 'BLZ', 'BOL', 'BOS', 'BRA', 'BUL', 'CMB', 'CAN', 'CHL', 'CHN', 'COL', 'COS', 'CRO', 'CUB', 'CYP', 'CZR', 'DEN', 'DMA', 'DOM', 'ECU', 'ELS', 'FRA', 'GAB', 'GRG', 'GER', 'GRC', 'GRN', 'GUA', 'GUY', 'HAI', 'HON', 'HUN', 'ICE', 'INS', 'IRN', 'ITA', 'JAM', 'JPN', 'KZK', 'KYG', 'LAT', 'LIT', 'LUX', 'MAC', 'MEX', 'MOL', 'MON', 'MYR', 'NDL', 'NIC', 'NKR', 'NOR', 'PAN', 'PAR', 'PER', 'PHL', 'POL', 'PRG', 'ROM', 'RUS', 'KOR', 'ESP', 'STK', 'STL', 'SVG', 'SUR', 'TWN', 'TAJ', 'THA', 'TRI', 'TUR', 'TKM', 'UKI', 'GBR', 'USA', 'URU', 'UZB', 'VZA', 'VTN', 'YUG']
 
           Graph | 'ingredients'
            Type | '---'
           Nodes | 1,525 (18)
           Edges | 221,777 (0)
          Degree | 290.9 (0, 989)
+        Density | 0.19084979
      Components | 98.1% (22)
-           Time | 0.5 sec
+           Time | 0.4 sec
 
           Graph | 'ingredients'
-      Algorithm | 'leiden'
-       Clusters | 28 (54.5)
-              Q | 0.115959
-            NMI | 0.000000
-            ARI | 0.000000
-           Time | 1.8 sec
+      Algorithm | 'LPA' (100x)
+       Clusters | 28.0 x 54 (95.8%)
+              Q | 0.002
+            NMI | 0.000
+           Time | 0.3 sec
 
-['abies_balsamea_oil', 'abies_sibirica', 'acacia', 'acacia_farnesiana', 'acacia_farnesiana_oil', 'acacia_flower_oil', 'achillea_micrantha_oil', 'agarwood', 'agastache_formosana', 'agastache_rugosa', 'agathosma_gnidioides_leaf_oil', 'alcoholic_beverage', 'algae', 'almond_flower', 'alpinia_malaccensis', 'alpinia_malaccensis_oil', 'ambrette_seed', 'american_sassafras_oil', 'andropogon_gragrans', 'angelica', 'angelica_oil', 'angelica_root', 'angelica_root_oil', 'angelica_seed', 'animal', 'anise', 'anise_hyssop', 'annona_reticulata', 'apricot', 'aristolochia_clematitis', 'artemisae_oil', 'artemisia', 'artemisia_cina', 'artemisia_ferganensis', 'artemisia_hausiliensis', 'artemisia_juncea', 'artemisia_maritime_oil', 'artemisia_porrecta_oil', 'artemisia_verlo', 'asarum_arifolium_root_oil', 'asarum_canadense_root_oil', 'asarum_europaeum_root_oil', 'ashanti_pepper', 'asperula_odorosa', 'auricula_oil', 'azalea', 'babaco', 'backhousia_citriodora', 'backhousia_citriodora_oil', 'baeckea_citriodora', 'baeckea_citriodora_oil', 'bael', 'banana_passion_fruit', 'barosma_betulina', 'barosma_crenulata', 'barosma_pulchella_leaf_oil', 'barosma_pulchella_oil', 'barosma_venustum', 'basil', 'basil_oil', 'bay', 'bay_laurel_oil', 'bell_pepper', 'bergamot', 'bergamot_oil', 'berry', 'berry_bud', 'berry_juice', 'betel', 'bilberry', 'bisabol_myrrh', 'bitter_fennel', 'bitter_orange', 'bitter_orange_juice', 'bitter_orange_peel_oil', 'black_chokeberry', 'black_chokecherry', 'black_currant', 'black_currant_bud', 'black_pepper', 'black_raspberry', 'black_sesame_seed', 'blackberry', 'blenheim_apricot', 'blueberry', 'blumea_eriantha_oil', 'blumea_malcomii_oil', 'bog_blueberry', 'boldea_fragrans', 'boldo', 'boldo_leaf', 'borosma_pulchellum', 'boswellia_serrata_oil', 'buchu', 'buchu_oil', 'bulgarian_rose', 'bystropogon_mollis_leaf_oil', 'cabreuva', 'caja_fruit', 'cajeput', 'cajeput_oil', 'calabash_nutmeg', 'calamus', 'california_laurel_oil', 'california_lemon_oil', 'california_orange', 'california_orange_peel', 'california_pepper', 'callitris', 'callitris_intratropica', 'calyptranthes_parriculata', 'calytrix_tetragona', 'calytrix_tetragona_oil', 'calytrix_virgata', 'camphor', 'camphor_oil', 'cananga', 'cape_gooseberry', 'capsicum', 'capsicum_annuum', 'caraway', 'caraway_seed', 'cardamom', 'cardamom_oil', 'carnation', 'carnation_oil', 'carob_fruit', 'carrot', 'cascarilla', 'cassia', 'cassis_juice', 'cayenne', 'cayenne_bois_de_rose', 'cayenne_linaloe', 'cayenne_rosewood', 'celery', 'celery_oil', 'celery_seed', 'ceylon_citronella', 'ceylon_citronella_oil', 'ceylon_tea_cinnamon_leaf', 'ceylon_tea_citronella_oil', 'ceylon_tea_oil', 'chamaecyparis_formosensis_oil', 'chamaecyparis_lawsoniana', 'champaca', 'cherimoya', 'cherry', 'chestnut_flower', 'chinese_star_anise', 'chinese_star_anise_oil', 'choke_cherry', 'chokeberry', 'chrysanthemum_japonicum', 'cicuta_virosa_oil', 'cinnamomum_camphora', 'cinnamomum_kanahirain', 'cinnamomum_oliveri_leaf', 'cinnamon', 'cinnamon_leaf', 'cinnamon_leaf_oil', 'citron', 'citronella_grass', 'citrus', 'citrus_juice', 'citrus_oil', 'citrus_peel', 'citrus_peel_oil', 'clary_sage', 'clary_sage_oil', 'cloudberry', 'clove', 'clove_oil', 'cocoa_leaf', 'compositae', 'copaiba_balsam', 'coriander', 'coriander_oil', 'corn_mint', 'corn_mint_oil', 'cowberry', 'cranberry', 'crimean_white_grape_oil', 'crowberry', 'crownberry', 'cruciferae_seed', 'cubeb', 'cumin', 'cumin_fruit_oil', 'cumin_oil', 'cupressaceae', 'cupressaceae_oil', 'cupressus_lusitanica', 'cupressus_macrocarpa_oil', 'curcuma', 'curcuma_aeruginosa', 'curcuma_aromatica', 'currant', 'custard_apple', 'cymbopogon_citralis_oil', 'cymbopogon_sennaarensis', 'cypress', 'cypress_oil', 'dacrydium_franklinii_oil', 'daffodil', 'daffodil_flower', 'dalbergia_sissoo', 'darwinia_grandiflora_oil', 'dill', 'dill_blossom', 'dill_seed', 'doryphora_sassafras_leaf_oil', 'dried_parsley', 'durian', 'dwarf_pine', 'east_african_geranium', 'east_indian_geranium', 'echinacea', 'elder_flower', 'elderberry', 'elderberry_fruit', 'elettaria_caradmomum_oil', 'english_peppermint_oil', 'erica_arborea_oil', 'eryngium_poterium', 'eryngium_poterium_oil', 'estragon', 'ethiopian_pepper', 'eucalyptus', 'eucalyptus_australianavar_oil', 'eucalyptus_bakeries_oil', 'eucalyptus_citridora', 'eucalyptus_citriodora', 'eucalyptus_citriodora_oil', 'eucalyptus_diversicolor_oil', 'eucalyptus_dives_oil', 'eucalyptus_globulus', 'eucalyptus_globulus_oil', 'eucalyptus_oil', 'eucalyptus_polibrac_tea_oil', 'eucalyptus_radiata_oil', 'european_cranberry', 'farnesol', 'feijoa', 'fennel', 'fennel_oil', 'fermented_tea_leaf_oil', 'feronia_elephantum', 'filipendula_ulmaria_flower', 'finocchoi_fennel_oil', 'flower', 'fortunella_margarita', 'french_lavender', 'french_marigold_oil', 'french_peppermint', 'french_peppermint_oil', 'fruit', 'fruit_juice', 'galanga', 'gardenia', 'gardenia_flower_oil', 'gastrochilus_pandurata_oil', 'geranium', 'german_chamomile_oil', 'ginger', 'ginger_grass', 'ginger_oil', 'graminaceae', 'green_bell_pepper', 'guarana', 'guava', 'guinea_pepper', 'helichrysum_angustifolium', 'helichrysum_italicum', 'heracleum_villosum_oil', 'hernandia_peltata_oil', 'hinoki_oil', 'hoary_basil', 'hoary_basil_leaf_oil', 'hog_plum', 'holy_basil', 'honduras_balsam', 'honeydew', 'hop', 'hop_oil', 'huckleberry', 'hyacinth', 'israeli_orange', 'italian_lime', 'jammus_citronella_oil', 'japanese_calamus', 'japanese_hop', 'japanese_mint', 'japanese_peppermint', 'japanese_peppermint_oil', 'japanese_star_anise', 'japanese_star_anise_oil', 'jasmine', 'jasmine_oil', 'jasminum_grandiflorum', 'java_citronella_oil', 'jonquil', 'jonquil_oil', 'juniper_berry', 'juniper_leaf_oil', 'juniperus_chinensis_oil', 'juniperus_sabina', 'kaempferia_ethel_bulb_oil', 'kaffir_lime', 'kaschmis_citronella_oil', 'key_lime_leaf', 'kiwi', 'kumquat', 'labiatae', 'lantana_camara_oil', 'larix', 'lauraceae', 'laurel', 'laurel_leaf_oil', 'lavandin', 'lavender', 'lavender_delphinensis', 'lavender_oil', 'leaf', 'leaf_oil', 'ledum_palustre_oil', 'lemon', 'lemon_balm', 'lemon_flower', 'lemon_oil', 'lemon_peel', 'lemon_peel_oil', 'lemongrass', 'lemongrass_oil', 'leptospermum_citratum', 'leptospermum_liversidgei', 'levisticum_acutilobum', 'liatris_odoratissima', 'ligusticum_acutilobum', 'ligusticum_acutilobum_oil', 'lilac', 'lilac_flower_oil', 'lime', 'lime_oil', 'lime_peel_oil', 'lindera_citriodora', 'lippia_carviodora', 'liquidambar_orientalis_storax', 'litchi', 'litsea_citrata', 'litsea_cubeba_fruit', 'litsea_guatemalensis', 'litsea_guatemalensis_oil', 'loganberry', 'loiseleuria_procumbens', 'long_pepper', 'lovage', 'lovage_leaf', 'lovage_root', 'luraceae_oil', 'luvunga_scadens_oil', 'mace', 'madagascar_cinnamon_leaf_oil', 'magnolia_salicifolia_oil', 'malabar_cardamom_oil', 'malagueta_pepper', 'malay_apple', 'mandarin', 'mandarin_leaf_oil', 'mandarin_oil', 'mandarin_peel', 'mandarin_peel_oil', 'mango', 'mangosteen', 'marjoram', 'marjoram_oil', 'mastic_gum', 'mastic_gum_leaf_oil', 'mastic_gum_oil', 'matricaria_parthenium_oil', 'melaleuca_bracteata_leaf', 'melaleuca_oil', 'melaleuca_paucifiora_oil', 'melaleuca_smithii', 'melaleuca_trichostachya_oil', 'melaleuca_viridiflora', 'melilotus_albus_leaf', 'melilotus_officinalis_flower', 'mentha', 'mentha_aquatica', 'mentha_citrata', 'mentha_crispa', 'mentha_longifolia_oil', 'mentha_silvestris_oil', 'mentha_verticillata', 'mentha_viridis', 'mexican_goosefoot', 'mexican_lime', 'mexican_linaloe', 'micromeria_abyssinica', 'mimosa_oil', 'mint', 'mint_oil', 'monarda_citriodora_oil', 'monarda_fisulosa', 'monarda_punctata', 'monarda_punctata_oil', 'monkey_orange', 'morus_bombycis_oil', 'mountain_papaya', 'myrcia_acris', 'myrocarpus_fastigiatus', 'myrocarpus_frondosus', 'myrrh', 'myrrh_oil', 'myrtaceae_oil', 'myrtle', 'myrtleberry', 'myrtus_communis', 'nance', 'naranjilla', 'nectandra_elaiophora', 'nectarine', 'nemuaron_humboldtii_oil', 'nepeta_japonica', 'neroli', 'neroli_bigarade', 'niaouli_oil', 'nutmeg', 'nutmeg_oil', 'ocimum_gratissimum', 'ocimum_viride', 'ocotea_usambarensis_oil', 'orange', 'orange_flower', 'orange_flower_oil', 'orange_juice', 'orange_oil', 'orange_peel', 'orange_peel_oil', 'orchid', 'oregano', 'oregano_oil', 'origanum', 'origanum_floribundum', 'origanum_oil', 'ormenis_mixta_oil', 'ormenis_multicaulis', 'orris_root', 'orthodon_asaroniferum_oil', 'orthodon_citraliferum', 'orthodon_linalooliferum', 'orthodon_methylisoeugenoliferum', 'orthodon_methylisoeugenoliferum_oil', 'orthodon_tenuicaule_oil', 'ouzo', 'oxystigma_buccholtzii_flower', 'palm_fruit', 'palmarosa', 'palmarosa_oil', 'papaya', 'paraguay_petitgrain', 'parsley', 'parsnip', 'parsnip_fruit', 'parsnip_root', 'passiflora_edulis', 'passiflora_edulis_juice', 'passiflora_mollissima', 'patchouli_oil', 'pelargonium_capitaux', 'pelargonium_tomentosum', 'penang_benzoin', 'pennyroyal', 'pepper', 'peppermint', 'peppermint_oil', 'perovski_abrotanoides_oil', 'persea_gratissima_peel', 'peru_balsam', 'petitgrain', 'petitgrain_bigarade', 'phebalium_dentatum_leaf', 'phebalium_nudum_root_oil', 'phellodendron_amurense_fruit', 'phellodendron_japonicum', 'picea_balsamea_oil', 'pickled_plum', 'pimenta', 'pimento', 'pinaceae', 'pine_oil', 'pineapple', 'pinus_communis_oil', 'pittosporum_flower', 'plant', 'plum', 'plumcot', 'prickly_pear', 'prune', 'prunus', 'ptychotis_ajowan_seed_oil', 'purple_passion_fruit', 'purple_passion_fruit_juice', 'rabbiteye_blueberry', 'radish_oil', 'rangpur', 'rapeseed', 'raspberry', 'raspberry_juice', 'red_algae', 'red_currant', 'reunion_geranium', 'rhodophyllus_icterus', 'rhodotorula_glutinis', 'rhus_cotinus_leaf', 'rice_husk', 'robinia_pseudoacacia', 'robinia_pseudoacacia_oil', 'root', 'rosa_borbonica', 'rose_apple', 'rose_flower_oil', 'rose_hip', 'rosemary', 'rosemary_oil', 'rotundifolia', 'russian_anise', 'russian_champagne', 'russian_peppermint_oil', 'russian_star_anise', 'rutaceae', 'safflower_seed', 'sage', 'saigon_cinnamon', 'salvia_grandifiora_oil', 'salvia_spinosa', 'salvia_triloba_oil', 'sassafras', 'sassafras_root_oil', 'satsuma', 'satureia_montana', 'satureia_thymera', 'savory', 'sea_algae', 'sea_buckthorn', 'seaweed', 'seed', 'seed_oil', 'seseli_sibiricum', 'several_oil', 'siberian_pine_needle_oil', 'solanaceae', 'solidago_odora', 'south_african_mentha_longifolia', 'spanish_origanum', 'spanish_origanum_oil', 'spanish_sage', 'spearmint', 'spearmint_oil', 'spearmint_scotch_oil', 'spike_oil', 'spirea_ulmaria_oil', 'star_anise', 'star_anise_oil', 'starfruit', 'strawberry', 'sudachi', 'sweet_basil', 'tabasco_pepper', 'tahiti_vanilla', 'tangerine', 'tangerine_oil', 'tangerine_peel_oil', 'tarragon', 'tea_tree_oil', 'tequila', 'thai_pepper', 'thea_chinensis_oil', 'thuja_articulata_bark_oil', 'thuja_occidentalis', 'thuja_occidentalis_oil', 'thuja_plicata', 'thuja_standishii', 'thujopsis_dolabrata', 'thymbra_spicata_oil', 'thyme', 'thymus', 'thymus_caespeititius', 'thymus_oil', 'thymus_zygis', 'tolu_balsam', 'tonka_bean_seed', 'trifolium_incarnatum', 'trifolium_pratense_leaf_oil', 'tsuga_canadensis', 'tsuga_canadensis_oil', 'tuber', 'tuberose', 'tulip', 'tunisian_rosemary', 'turmeric', 'turpentine', 'udo', 'vachellia_farnesiana', 'valerian_root_oil', 'vanilla_oil', 'vervain', 'violet_flower', 'violet_flower_oil', 'wallflower', 'water_apple', 'watermelon', 'wild_bergamot', 'wild_bergamot_oil', 'wild_berry', 'wild_raspberry', 'wild_strawberry', 'wild_vanilla', 'xanthorrhoea_hostilis', 'yeast', 'ylangylang', 'zanthoxylum_piperitum', 'zanthoxylum_rhetsa_oil', 'zingiberaceae']
+          Graph | 'ingredients'
+      Algorithm | 'Leiden' (100x)
+       Clusters | 27.8 x 55 (38.7%)
+              Q | 0.115
+            NMI | 0.000
+           Time | 1.0 sec
 
-          Graph | 'Erdös-Rényi'
-      Algorithm | 'label propagation'
-       Clusters | 2,111 (4.7)
-              Q | 0.316864
-            NMI | 0.000000
-            ARI | 0.000000
-           Time | 1.4 sec
+          Graph | 'ingredients'
+      Algorithm | 'Infomap' (100x)
+       Clusters | 41.0 x 37 (92.5%)
+              Q | 0.003
+            NMI | 0.000
+           Time | 2.4 sec
 
-          Graph | 'Erdös-Rényi'
-      Algorithm | 'label propagation'
-       Clusters | 2 (5000.0)
-              Q | 0.000000
-            NMI | 0.000000
-            ARI | 0.000000
-           Time | 0.9 sec
+['abies_alba_pine_needle', 'abies_balsamea_oil', 'abies_sibirica', 'acacia', 'acacia_caven', 'acacia_dealbata', 'acacia_farnesiana', 'acacia_flower_oil', 'achasma_walang', 'achillea_ageratum', 'achillea_micrantha_oil', 'agaricus', 'agarwood', 'agastache_formosana', 'agastache_rugosa', 'agathosma_gnidioides_leaf_oil', 'alcoholic_beverage', 'algae', 'algerian_geranium_oil', 'almond', 'almond_flower', 'alpinia_malaccensis', 'alpinia_malaccensis_oil', 'alpinia_sessilis', 'ambergris_oil', 'ambrette', 'ambrette_seed', 'ambrette_seed_oil', 'american_cranberry', 'american_pennyroyal', 'american_peppermint', 'american_peppermint_oil', 'american_potato_chip', 'american_sassafras_oil', 'american_storax', 'ananas_sativus', 'ananas_sativus_oil', 'andropogon_gragrans', 'andropogon_intermedius', 'andropogon_jwarancusa', 'angelica', 'angelica_oil', 'angelica_root', 'angelica_root_oil', 'angelica_seed', 'animal', 'anise', 'anise_brandy', 'anise_hyssop', 'anise_seed', 'anise_seed_oil', 'annona_reticulata', 'apple', 'apple_brandy', 'apple_juice', 'apple_sauce', 'apricot', 'apricot_kernel', 'araucaria_cunninghamii', 'aristolochia_clematitis', 'armagnac', 'armenian_muscat_grape_oil', 'arnica_montana', 'arrack', 'artemisae_oil', 'artemisia', 'artemisia_arborescens', 'artemisia_brevifolia', 'artemisia_camphorata', 'artemisia_cina', 'artemisia_dracunculus_oil', 'artemisia_ferganensis', 'artemisia_frigida', 'artemisia_hausiliensis', 'artemisia_herba_alba', 'artemisia_maritime_oil', 'artemisia_porrecta_oil', 'artemisia_santolinifolia', 'artemisia_santolinifolia_oil', 'artemisia_scoparia', 'artemisia_transiliensis', 'artichoke', 'asarum_arifolium_root_oil', 'asarum_canadense_root_oil', 'asarum_europaeum_root_oil', 'ashanti_pepper', 'asian_storax', 'asparagus', 'atropa_belladonna_leaf', 'atropa_belladonna_root', 'auricula_oil', 'auto_oxidized_salmon_oil', 'avocado', 'azalea', 'babaco', 'bachang', 'backhousia_citriodora', 'backhousia_citriodora_oil', 'bacon', 'baeckea_citriodora', 'baeckea_citriodora_oil', 'bael', 'baked_potato', 'balm', 'banana', 'banana_passion_fruit', 'bantu_beer', 'barley', 'barosma_betulina', 'barosma_crenulata', 'barosma_pulchella_leaf_oil', 'barosma_pulchella_oil', 'barosma_venustum', 'bartlett_pear', 'basil', 'basil_oil', 'bay', 'bay_laurel', 'bay_laurel_oil', 'bean', 'beech', 'beech_tar_creosote', 'beechwood_tar', 'beef', 'beef_broth', 'beef_liver', 'beef_tallow', 'beer', 'beet', 'beet_juice', 'beet_root', 'bell_pepper', 'benzoin', 'benzoin_resin', 'bergamot', 'bergamot_oil', 'bergamot_peel_oil', 'berry', 'berry_bud', 'berry_juice', 'betel', 'bilberry', 'bilberry_wine', 'birch', 'bitter_almond', 'bitter_fennel', 'bitter_orange', 'bitter_orange_flower_oil', 'bitter_orange_juice', 'bitter_orange_leaf', 'bitter_orange_oil', 'bitter_orange_peel_oil', 'black_bean', 'black_chokeberry', 'black_chokecherry', 'black_currant', 'black_currant_bud', 'black_currant_juice', 'black_mustard_seed_oil', 'black_pepper', 'black_raspberry', 'black_seabream', 'black_sesame_seed', 'black_tea', 'black_tea_oil', 'blackberry', 'blackberry_brandy', 'blackberry_juice', 'blenheim_apricot', 'blue_cheese', 'blueberry', 'blumea_eriantha_oil', 'blumea_malcomii_oil', 'bog_blueberry', 'boiled_beef', 'boiled_chicken', 'boiled_crab', 'boiled_meat', 'boiled_mutton', 'boiled_pork', 'boldea_fragrans', 'boldo', 'boldo_leaf', 'bone_oil', 'boronia_anemonifolia', 'boronia_dentigeroides_oil', 'boronia_ledifolia_leaf', 'borosma_pulchellum', 'botrytized_wine', 'bourbon_whiskey', 'brandy', 'brassica', 'brazil_nut', 'brazil_peppermint_oil', 'brazil_rosewood', 'brazilian_sassafras_oil', 'bread', 'brewed_tea', 'broccoli', 'brown_rice', 'brussels_sprout', 'buchu', 'buchu_oil', 'buckwheat', 'bulgarian_clary_sage', 'bulgarian_clary_sage_oil', 'bulgarian_peppermint', 'bulgarian_rose', 'bulgarian_rose_oil', 'bulgarian_tobacco', 'burley_tobacco', 'burley_tobacco_oil', 'butter', 'butter_oil', 'butterfat', 'buttermilk', 'bystropogon_mollis_leaf_oil', 'cabbage', 'cabbage_juice', 'cabernet_sauvignon_grape', 'cabernet_sauvignon_wine', 'cabreuva', 'cacao', 'caja_fruit', 'cajeput', 'cajeput_oil', 'calabash_nutmeg', 'calamus', 'california_laurel_oil', 'california_lemon_oil', 'california_orange', 'california_orange_peel', 'california_pepper', 'callitris', 'callitris_intratropica', 'calyptranthes_parriculata', 'calytrix_tetragona', 'calytrix_tetragona_oil', 'calytrix_virgata', 'camembert_cheese', 'camphor', 'camphor_oil', 'cananga', 'cane_molasses', 'cantaloupe', 'cape_gooseberry', 'caprifoliaceae', 'capsicum', 'capsicum_annuum', 'caraway', 'caraway_seed', 'cardamom', 'cardamom_oil', 'carnation', 'carnation_oil', 'carob', 'carob_fruit', 'carphephorus_corymbosus_leaf', 'carphephorus_paniculatus_leaf', 'carpinus_betulus', 'carrot', 'cascarilla', 'cashew', 'cassava', 'cassia', 'cassia_oil', 'cassis_juice', 'castoreum', 'castoreum_oil', 'catfish', 'caucas', 'caucus', 'cauliflower', 'caviar', 'cayenne', 'cayenne_bois_de_rose', 'cayenne_linaloe', 'cayenne_rosewood', 'ceanothus_velutinus_leaf', 'celery', 'celery_root', 'celery_seed', 'cereal', 'ceriman', 'ceylon_cinnamon', 'ceylon_citronella', 'ceylon_citronella_oil', 'ceylon_tea', 'ceylon_tea_cinnamon_leaf', 'ceylon_tea_citronella_oil', 'ceylon_tea_oil', 'chamaecyparis_formosensis_oil', 'chamaecyparis_formosensis_root_oil', 'chamaecyparis_lawsoniana', 'chamaecyparis_pisifera', 'chamomile', 'chamomile_oil', 'champaca', 'champagne_wine', 'chayote', 'cheddar_cheese', 'cheese', 'chempedak', 'chenopodium', 'cherimoya', 'cherry', 'cherry_brandy', 'cherry_juice', 'chervil', 'chestnut_flower', 'chestnut_honey', 'chicken', 'chicken_broth', 'chicken_liver', 'chickpea', 'chicory', 'chicory_root', 'chinese_cabbage', 'chinese_cinnamon', 'chinese_quince', 'chinese_quince_peel', 'chinese_star_anise', 'chinese_star_anise_oil', 'chive', 'choke_cherry', 'chokeberry', 'chrysanthemum_japonicum', 'chrysocoris_stolli', 'cicuta_virosa_oil', 'cider', 'cigarette', 'cilantro', 'cinnamomum', 'cinnamomum_camphora', 'cinnamomum_oil', 'cinnamomum_oliveri_leaf', 'cinnamon', 'cinnamon_leaf', 'cinnamon_leaf_oil', 'cinnamon_oil', 'cistus_labdanum', 'cistus_ladaniferus', 'citronella', 'citronella_grass', 'citronella_oil', 'citrus', 'citrus_flower_oil', 'citrus_fruit_blossom', 'citrus_juice', 'citrus_leaf_oil', 'citrus_oil', 'citrus_peel', 'citrus_peel_oil', 'clam', 'clary_sage', 'clary_sage_oil', 'cloudberry', 'cloudberry_oil', 'clove', 'clove_oil', 'clove_pink', 'coal_tar', 'cocoa', 'cocoa_leaf', 'cocoa_liquor', 'coconut', 'coconut_oil', 'cod', 'cod_liver_oil', 'coffee', 'coffee_flower', 'cognac', 'cognac_oil', 'compositae', 'comte_cheese', 'concord_grape', 'congo_geranium', 'cooked_apple', 'copaiba', 'coprosma_foetidissima_leaf', 'coriander', 'coriander_oil', 'corn', 'corn_flake', 'corn_grit', 'corn_mint', 'corn_mint_oil', 'corn_oil', 'corn_salad', 'corn_tortilla', 'cottage_cheese', 'cowberry', 'crab', 'cranberry', 'crayfish', 'cream', 'cream_cheese', 'creosote', 'crepis_foetida_root', 'crimean_white_grape_oil', 'crisp_bread', 'crowberry', 'crownberry', 'cruciferae_seed', 'cryptomeria_japonica', 'cubeb', 'cucumber', 'cumin', 'cumin_fruit_oil', 'cumin_oil', 'cupressaceae', 'cupressaceae_oil', 'cupressus_lusitanica', 'cupressus_macrocarpa_oil', 'curcuma', 'curcuma_aeruginosa', 'curcuma_aromatica', 'cured_ham', 'cured_pork', 'currant', 'currant_leaf', 'custard_apple', 'cuttlefish', 'cymbopogon_citralis_oil', 'cymbopogon_javanensis', 'cymbopogon_sennaarensis', 'cypress', 'cypress_oil', 'dacrydium_franklinii_oil', 'daffodil', 'daffodil_flower', 'dairy', 'dalbergia_sissoo', 'darwinia_grandiflora_oil', 'date', 'datura_stramonium', 'demon_red', 'dill', 'dill_blossom', 'dill_seed', 'dolphin', 'domiati_cheese', 'doryphora_sassafras_leaf_oil', 'dried_black_tea', 'dried_fig', 'dried_green_tea', 'dried_kidney_bean', 'dried_parsley', 'dried_spinach', 'durian', 'dwarf_pine', 'dwarf_quince', 'east_african_geranium', 'east_indian_geranium', 'echinacea', 'eel', 'egg', 'egg_noodle', 'elder_flower', 'elderberry', 'elderberry_fruit', 'elderberry_juice', 'elettaria_caradmomum_oil', 'emmental_cheese', 'endive', 'english_peppermint_oil', 'enokidake', 'eremocitrus_glauca', 'eriostemon_coxii_leaf_oil', 'eryngium_facidum', 'eryngium_poterium', 'eryngium_poterium_oil', 'estragon', 'ethiopian_pepper', 'eucalyptus', 'eucalyptus_amygdalina', 'eucalyptus_australianavar_oil', 'eucalyptus_bakeries_oil', 'eucalyptus_cinereea', 'eucalyptus_citridora', 'eucalyptus_citriodora', 'eucalyptus_citriodora_oil', 'eucalyptus_diversicolor_oil', 'eucalyptus_dives', 'eucalyptus_dives_oil', 'eucalyptus_globulus', 'eucalyptus_globulus_oil', 'eucalyptus_goniocalyx', 'eucalyptus_hemilampra', 'eucalyptus_macarthuri_oil', 'eucalyptus_macarthurii', 'eucalyptus_maideni', 'eucalyptus_microcorys_leaf_oil', 'eucalyptus_oil', 'eucalyptus_polibrac_tea_oil', 'eucalyptus_radiata_oil', 'european_cranberry', 'ewe', 'fagroea_racemosa_flower', 'farnesol', 'fatty_fish', 'feces', 'feijoa', 'fennel', 'fennel_oil', 'fenugreek', 'fermented_radish', 'fermented_russian_black_tea', 'fermented_shrimp', 'fermented_tea', 'fermented_tea_leaf_oil', 'feronia_elephantum', 'feta_cheese', 'field_mint_oil', 'fig', 'filbert', 'filipendula_ulmaria_flower', 'finnish_pine_oil', 'finnish_whiskey', 'finocchoi_fennel_oil', 'fish', 'fish_oil', 'florida_orange_juice', 'flower', 'fortunella_margarita', 'frankfurter', 'french_bean', 'french_fried_potato', 'french_lavender', 'french_marigold_oil', 'french_peppermint', 'french_peppermint_oil', 'fried_beef', 'fried_chicken', 'fried_cured_pork', 'fried_pork', 'fruit', 'fruit_brandy', 'fruit_juice', 'furcraea_gigantean_flower_oil', 'galanga', 'galbanum_oil', 'garcia_mangostana', 'gardenia', 'gardenia_flower_oil', 'garlic', 'garlic_mustard', 'garlic_oil', 'gastrochilus_pandurata_oil', 'geraniaceae', 'geranium', 'geranium_oil', 'german_chamomile_oil', 'gin', 'ginger', 'ginger_grass', 'ginger_oil', 'globefish', 'goat_cheese', 'goat_milk', 'grain', 'graminaceae', 'grape', 'grape_brandy', 'grape_juice', 'grape_must', 'grape_syrup', 'grape_vine', 'grapefruit', 'grapefruit_blossom', 'grapefruit_juice', 'grapefruit_oil', 'grapefruit_peel', 'grapefruit_peel_oil', 'green_bell_pepper', 'green_mate', 'green_tea', 'green_tea_oil', 'grilled_beef', 'grilled_pork', 'gruyere_cheese', 'guarana', 'guava', 'guava_peel', 'guinea_orange_oil', 'guinea_pepper', 'guineafowl', 'haddock', 'ham', 'hatsutake', 'hazelnut', 'hedychium_spicatum', 'helichrysum_angustifolium', 'helichrysum_italicum', 'heracleum_candicans_oil', 'heracleum_villosum_oil', 'hernandia_peltata_oil', 'herring', 'hevea_brasiliensis_flower', 'highbush_blueberry', 'hinoki', 'hinoki_oil', 'hoary_basil', 'hoary_basil_leaf_oil', 'hog_plum', 'hogweed', 'hogweed_oil', 'holy_basil', 'honduras_peru_balsam', 'honey', 'honey_fungus', 'honeydew', 'hop', 'hop_oil', 'horse_mackerel', 'horseradish', 'horseradish_oil', 'huckleberry', 'hyacinth', 'hyacinth_oil', 'hybrid_passion_fruit_juice', 'hyssop', 'iberis_sempervirens_seed', 'imperatoria', 'irish_whiskey', 'israeli_orange', 'israeli_orange_oil', 'italian_lime', 'italian_orange_oil', 'jackfruit', 'jamaican_rum', 'jammus_citronella_oil', 'japanese_calamus', 'japanese_ho_leaf_oil', 'japanese_hop', 'japanese_mint', 'japanese_peppermint', 'japanese_peppermint_oil', 'japanese_plum', 'japanese_seafood', 'japanese_star_anise', 'japanese_whiskey', 'jasmine', 'jasmine_oil', 'jasmine_tea', 'jasminum_grandiflorum', 'jasminum_grandiflorum_oil', 'jasminum_odoratissimum_oil', 'java_citronella', 'java_citronella_oil', 'jerusalem_artichoke', 'jonquil', 'jonquil_oil', 'juniper_berry', 'juniper_leaf_oil', 'juniperus_phoenicea_oil', 'juniperus_sabina', 'kabosu_peel_oil', 'kaempferia_ethel_bulb_oil', 'kaffir_lime', 'kale', 'kaschmis_citronella_oil', 'katsuobushi', 'kelp', 'kencur_oil', 'keta_salmon', 'key_lime_leaf', 'kidney_bean', 'kiwi', 'kohlrabi', 'kola_nut', 'kola_tea', 'krill', 'kumazasa', 'kumquat', 'kumquat_peel_oil', 'labdanum', 'labiatae', 'lamb', 'lamb_liver', 'lantana_camara_oil', 'larch_tree', 'lard', 'larix', 'lauraceae', 'laurel', 'laurel_leaf', 'laurel_leaf_oil', 'lavandin', 'lavandin_oil', 'lavender', 'lavender_delphinensis', 'lavender_oil', 'lavender_vera_oil', 'leaf', 'leaf_oil', 'lean_fish', 'ledum_palustre', 'ledum_palustre_oil', 'leek', 'lemon', 'lemon_balm', 'lemon_flower', 'lemon_juice', 'lemon_oil', 'lemon_peel', 'lemon_peel_oil', 'lemon_tree', 'lemongrass', 'lemongrass_oil', 'lentil', 'leptospermum_citratum', 'leptospermum_liversidgei', 'lesquerella_seed', 'lettuce', 'licorice', 'lilac', 'lilac_flower_oil', 'lilium_candidum_flower', 'lily_oil', 'lima_bean', 'limburger_cheese', 'lime', 'lime_juice', 'lime_oil', 'lime_peel_oil', 'lindera_citriodora', 'lingonberry', 'lingonberry_juice', 'lippia_carviodora', 'lippia_scaberrima', 'litchi', 'litsea_citrata', 'litsea_cubeba', 'litsea_cubeba_fruit', 'litsea_cubeba_oil', 'litsea_guatemalensis', 'litsea_guatemalensis_oil', 'litsea_odorifera_leaf_oil', 'litsea_zeylanica', 'litsea_zeylanica_oil', 'liver', 'lobster', 'loganberry', 'loiseleuria_procumbens', 'long_pepper', 'loquat', 'lovage', 'lovage_leaf', 'lovage_root', 'luraceae_oil', 'luvunga_scadens_oil', 'macadamia_nut', 'macaroni', 'mace', 'mackerel', 'madagascar_cinnamon_leaf_oil', 'magnolia_fuscata', 'magnolia_grandiflora', 'magnolia_oil', 'magnolia_tripetala', 'maize', 'malabar_cardamom_oil', 'malagueta_pepper', 'malay_apple', 'malt', 'malt_whiskey', 'mammee', 'mandarin', 'mandarin_leaf_oil', 'mandarin_oil', 'mandarin_peel', 'mandarin_peel_oil', 'mango', 'mangosteen', 'manila_copal', 'mantis_shrimp', 'maple_syrup', 'marjoram', 'marjoram_oil', 'marula', 'mashed_potato', 'mastic_gum', 'mastic_gum_fruit_oil', 'mastic_gum_leaf_oil', 'mastic_gum_oil', 'mate', 'mate_leaf', 'matricaria_parthenium_oil', 'matsutake', 'meat', 'melaleuca_bracteata', 'melaleuca_bracteata_leaf', 'melaleuca_oil', 'melaleuca_paucifiora_oil', 'melaleuca_smithii', 'melaleuca_trichostachya_oil', 'melaleuca_viridiflora', 'melissa_oil', 'melon', 'mentha', 'mentha_aquatica', 'mentha_citrata', 'mentha_crispa', 'mentha_silvestris_oil', 'mentha_timija', 'mentha_viridis', 'mexican_goosefoot', 'mexican_lime', 'mexican_linaloe', 'michelia', 'michelia_champaca_oil', 'micromeria_abyssinica', 'milk', 'milk_fat', 'mimosa_oil', 'mimusops_elengi_flower', 'mindanaese_cinnamomum_oil', 'mint', 'mint_oil', 'monarda_citriodora_oil', 'monarda_fisulosa', 'monarda_punctata', 'monarda_punctata_oil', 'monkey_orange', 'monodora_grandiflora', 'morus_bombycis_oil', 'mountain_papaya', 'mozzarella_cheese', 'mulberry_leaf', 'mung_bean', 'munster_cheese', 'muscadine_grape', 'muscat_grape', 'muscat_grape_juice', 'mushroom', 'muskmelon', 'mussel', 'mustard', 'mustard_greens_oil', 'mutton', 'mutton_liver', 'myrcia_acris', 'myrocarpus_fastigiatus', 'myrocarpus_frondosus', 'myrrh', 'myrrh_oil', 'myrtaceae_oil', 'myrtle', 'myrtleberry', 'myrtus_communis', 'nance', 'naranjilla', 'narcissus', 'narcissus_oil', 'navy_bean', 'nectandra_elaiophora', 'nectarine', 'nemuaron_humboldtii_oil', 'nepeta_japonica', 'neroli', 'neroli_bigarade', 'neroli_oil', 'nettle', 'nezara_viridula', 'niaouli_oil', 'nira', 'nobiru', 'nut', 'nutmeg', 'nutmeg_oil', 'oak_leaf', 'oak_musk', 'oak_tar_oil', 'oat', 'oat_groat', 'oatmeal', 'ocimum_gratissimum', 'ocimum_viride', 'ocotea_usambarensis_oil', 'octopus', 'okra', 'olive', 'olive_oil', 'onion', 'onion_juice', 'onion_oil', 'orange', 'orange_flower', 'orange_flower_oil', 'orange_juice', 'orange_leaf', 'orange_leaf_oil', 'orange_oil', 'orange_peel', 'orange_peel_oil', 'orange_tree', 'orchid', 'oregano', 'oregano_oil', 'oriental_storax', 'origanum', 'origanum_floribundum', 'origanum_oil', 'ormenis_mixta_oil', 'ormenis_multicaulis', 'orris', 'orris_oil', 'orthodon_citraliferum', 'orthodon_linalooliferum', 'orthodon_methylisoeugenoliferum', 'ouzo', 'oxidized_lard', 'oxidized_milk', 'oxidized_skim_milk', 'oxystigma_buccholtzii_flower', 'oyster', 'palm', 'palm_fruit', 'palm_oil', 'palmarosa', 'palmarosa_oil', 'pandanus_odoratissimus', 'pandanus_odoratissimus_oil', 'papaver_somniferum', 'papaya', 'paraguay_petitgrain', 'parmesan', 'parmesan_cheese', 'parsley', 'parsnip', 'parsnip_fruit', 'parsnip_root', 'passiflora_edulis', 'passiflora_edulis_juice', 'passiflora_mollissima', 'passion_fruit', 'passion_fruit_juice', 'passion_fruit_wine', 'patchouli_oil', 'pawpaw', 'pea', 'peach', 'peanut', 'peanut_butter', 'peanut_oil', 'pear', 'pear_brandy', 'peated_malt', 'pecan', 'pelargonium_capitaux', 'pelargonium_tomentosum', 'pennyroyal', 'pennyroyal_oil', 'pepino_melon', 'pepper', 'peppermint', 'peppermint_oil', 'perovski_abrotanoides_oil', 'persea_gratissima_peel', 'persea_pubescens', 'peru_balsam', 'petasites_fragrans', 'petitgrain', 'petitgrain_bergamot', 'petitgrain_bigarade', 'petitgrain_lemon', 'petitgrain_lemon_oil', 'petitgrain_lime', 'petitgrain_lime_oil', 'petrosimonia_monandra', 'phallus_impudicus', 'phebalium_dentatum', 'phebalium_dentatum_leaf', 'phebalium_nudum_root_oil', 'phellodendron_amurense_fruit', 'phellodendron_japonicum', 'picea_alba_oil', 'picea_balsamea_oil', 'pickled_ham', 'pickled_plum', 'pike', 'pilchard', 'pimenta', 'pimento', 'pinaceae', 'pinanona', 'pine_oil', 'pine_turpentine', 'pineapple', 'pinto_bean', 'pinus_avium_fruit', 'pinus_excelsa', 'pinus_jeffreyi', 'pinus_jeffreyi_leaf_oil', 'pinus_jeffreyi_terpentine', 'pinus_sabiniana', 'pinus_sabiniana_terpentine', 'pinus_sylvestris', 'pinus_sylvestris_oil', 'piper_officinarum', 'piri_piri', 'pistachio', 'pittosporum_glabratum', 'plant', 'plum', 'plum_brandy', 'plum_wine', 'plumcot', 'polianthes_tuberosa_oil', 'polyalthia_canangioides_flower', 'polysiphonia_fastigiata', 'pomelo_peel', 'popcorn', 'porcini', 'pork', 'pork_liver', 'pork_sausage', 'port_wine', 'potato', 'potato_chip', 'pouching_tea', 'prawn', 'prickly_pear', 'provolone_cheese', 'prune', 'prunus', 'prunus_laurocerasus', 'psilocaulon_absimile', 'ptychotis_ajowan_seed_oil', 'pumpkin', 'purple_passion_fruit', 'purple_passion_fruit_juice', 'quince', 'rabbiteye_blueberry', 'radish', 'radish_oil', 'rafanus_sativus_root', 'raisin', 'rancid_coconut_oil', 'randia_formosa_flower', 'rapeseed', 'raspberry', 'raspberry_brandy', 'raspberry_juice', 'raspberry_oil', 'raw_asparagus', 'raw_bean', 'raw_beef', 'raw_cabbage', 'raw_chicken', 'raw_fatty_fish', 'raw_fish', 'raw_lamb', 'raw_lean_fish', 'raw_leek', 'raw_pea', 'raw_peanut', 'raw_pork', 'raw_potato', 'raw_radish', 'raw_soybean_oil', 'raw_turkey', 'red_algae', 'red_bean', 'red_currant', 'red_kidney_bean', 'red_meat', 'red_sage', 'red_wine', 'reunion_geranium', 'rhizopus', 'rhodophyllus_icterus', 'rhubarb', 'rhus_cotinus_leaf', 'ribes', 'rice', 'rice_bran', 'rice_husk', 'roasted_almond', 'roasted_barley', 'roasted_beef', 'roasted_chicken', 'roasted_chicory_root', 'roasted_cocoa', 'roasted_coconut', 'roasted_filbert', 'roasted_green_tea', 'roasted_hazelnut', 'roasted_lamb', 'roasted_macadamia_nut', 'roasted_malt', 'roasted_mate', 'roasted_meat', 'roasted_nut', 'roasted_onion', 'roasted_peanut', 'roasted_pecan', 'roasted_pork', 'roasted_sesame_seed', 'roasted_shrimp', 'roasted_spanish_peanut', 'roasted_turkey', 'robinia_pseudoacacia', 'robinia_pseudoacacia_oil', 'roman_chamomile', 'roman_chamomile_oil', 'romano_cheese', 'rooibus_tea', 'root', 'roquefort_cheese', 'rosa_borbonica', 'rosa_bourboniana_oil', 'rosa_centifolia', 'rosa_rugosa', 'rosaceae', 'rose', 'rose_apple', 'rose_flower_oil', 'rose_hip', 'rose_oil', 'rose_wine', 'roselle', 'rosemary', 'rosemary_oil', 'rotundifolia', 'rubus_arcticus', 'rue', 'rue_oil', 'rum', 'rum_brandy', 'russian_anise', 'russian_champagne', 'russian_cheese', 'russian_peppermint_oil', 'russian_star_anise', 'ruta_chalepensis_oil', 'ruta_montana_oil', 'ruta_pinnata_leaf_oil', 'rutabaga', 'rutaceae', 'rye_bread', 'rye_ergot', 'rye_flour', 'safflower_seed', 'saffron', 'sage', 'saigon_cinnamon', 'sake', 'salmon', 'salmon_caviar', 'salmon_oil', 'salmon_roe', 'salvia_grandifiora_oil', 'salvia_spinosa', 'salvia_triloba_oil', 'sandalwood', 'sapodilla', 'sapodilla_fruit', 'sassafras', 'sassafras_root_oil', 'satsuma', 'satsuma_mandarin_peel', 'satsuma_mandarin_peel_oil', 'satureia_montana', 'satureia_thymera', 'sauerkraut', 'sauvignon_blanc_grape', 'sauvignon_grape', 'savory', 'saxifragaceae', 'scallion', 'scallop', 'schizandra_nigra_oil', 'scotch', 'scotch_spearmint', 'scotch_spearmint_oil', 'scotch_whiskey', 'sea_algae', 'sea_bass', 'sea_buckthorn', 'seal', 'seaweed', 'seed', 'seed_oil', 'senecio_kaempferi', 'sesame_oil', 'sesame_seed', 'seseli_sibiricum', 'seseli_tortuosum', 'several_oil', 'seychelles_tea', 'shallot', 'sheep_cheese', 'sheep_milk', 'shellfish', 'sherry', 'sherry_wine', 'shiitake', 'shoro', 'shrimp', 'siberian_pine_needle_oil', 'silkworm_chrysalis', 'skim_milk', 'smoke', 'smoked_fatty_fish', 'smoked_fish', 'smoked_herring', 'smoked_pork', 'smoked_pork_belly', 'smoked_salmon', 'smoked_sausage', 'smoked_summer_sausage', 'snap_bean', 'solanaceae', 'solidago_odora', 'sour_cherry', 'sour_milk', 'soursop', 'south_african_mentha_longifolia', 'southern_pea', 'soy_sauce', 'soybean', 'soybean_oil', 'spanish_anise', 'spanish_origanum', 'spanish_origanum_oil', 'spanish_sage', 'sparkling_wine', 'spearmint', 'spearmint_oil', 'sperm_whale_oil', 'spermaceti_oil', 'sphaeranthus_indicus_oil', 'spike', 'spike_oil', 'spirea_ulmaria_oil', 'split_pea', 'squash', 'squid', 'star_anise', 'star_anise_oil', 'starfruit', 'storax', 'strawberry', 'strawberry_jam', 'strawberry_juice', 'strawberry_oil', 'strawberry_wine', 'sturgeon_caviar', 'sudachi', 'sugarcane', 'sumatra_benzoin', 'summer_savory', 'sunflower_oil', 'sweet_basil', 'sweet_grass_oil', 'sweet_potato', 'sweetfish', 'swiss_cheese', 'tabasco_pepper', 'tahiti_vanilla', 'taiwan_citronella', 'tamarind', 'tangerine', 'tangerine_juice', 'tangerine_oil', 'tangerine_peel_oil', 'tarragon', 'tea', 'tea_leaf_oil', 'tea_oil', 'tea_tree_oil', 'temoe_lawak', 'temple_orange_juice', 'tequila', 'teucrium_chamaedrys', 'texas_sage', 'thai_pepper', 'thea_chinensis_oil', 'thlaspi_arvense_oil', 'thuja_articulata_bark_oil', 'thuja_occidentalis', 'thuja_occidentalis_oil', 'thujopsis_dolabrata', 'thymbra_spicata_oil', 'thyme', 'thymus', 'thymus_caespeititius', 'thymus_mastichina', 'thymus_oil', 'thymus_zygis', 'tilsit_cheese', 'toasted_oat', 'toasted_oat_groat', 'toasted_sesame_seed', 'tobacco', 'tobacco_flower', 'tobacco_leaf', 'tobacco_leaf_oil', 'tobacco_oil', 'tolu_balsam', 'tomato', 'tomato_juice', 'trametes_graveolens', 'trassi', 'trifolium_incarnatum', 'trifolium_pratense_leaf_oil', 'truffle', 'tsuga_canadensis', 'tsuga_canadensis_oil', 'tuber', 'tuberose', 'tulip', 'tuna', 'tunisian_rosemary', 'turkey', 'turkmenistan_sunguli_oil', 'turmeric', 'turnip', 'turpentine', 'udo', 'umbelliferae', 'uncured_boiled_pork', 'uncured_pork', 'uncured_smoked_pork', 'unprocessed_rice', 'vachellia_farnesiana', 'valencia_orange_juice', 'valencia_orange_oil', 'valerian', 'valerian_root_oil', 'vanilla', 'veal', 'vegetable', 'vegetable_oil', 'verbena_oil', 'verbenaceae', 'vervain', 'vervain_leaf', 'vetiver', 'vetiver_oil', 'vietnamese_black_tea', 'vinegar', 'violet', 'violet_flower', 'violet_flower_oil', 'violet_leaf', 'violet_leaf_oil', 'violet_root', 'vitis', 'vitis_labrusca', 'vitis_labrusca_juice', 'vitis_labrusca_oil', 'wallflower', 'walnut', 'wasabi', 'waste_wort', 'water_apple', 'watercress', 'watermelon', 'wax_jambu', 'weinbrand', 'welsh_onion', 'whale', 'wheat', 'wheat_bran', 'wheat_bread', 'wheat_flake', 'wheaten_bread', 'whiskey', 'white_bread', 'white_currant_juice', 'white_wine', 'whitefish', 'whole_grain_wheat_flour', 'wild_bergamot', 'wild_bergamot_oil', 'wild_berry', 'wild_grape', 'wild_marjoram', 'wild_raspberry', 'wild_rice', 'wild_strawberry', 'wine', 'winter_melon', 'winter_savory', 'wintergreen_leaf', 'wintergreen_oil', 'wood', 'wood_apple', 'wood_oil', 'wood_spirit', 'wood_tar', 'wood_vinegar', 'wort', 'xanthorrhoea_hostilis', 'ximenia_aegyptiaca', 'yam', 'yeast', 'yellow_mombin', 'yellow_passion_fruit', 'yellow_passion_fruit_juice', 'ylangylang', 'ylangylang_oil', 'yogurt', 'zanthoxylum_piperitum', 'zanthoxylum_rhetsa', 'zanthoxylum_rhetsa_oil', 'zingiberaceae', 'zucchini']
 
           Graph | 'Erdös-Rényi'
-      Algorithm | 'label propagation'
-       Clusters | 1 (10000.0)
-              Q | 0.000000
-            NMI | 1.000000
-            ARI | 1.000000
+           Type | '---'
+          Nodes | 10,000 (74)
+          Edges | 25,000 (0)
+         Degree | 5.0 (0, 17)
+        Density | 0.00050005
+     Components | 99.2% (76)
+           Time | 0.0 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'LPA' (10x)
+       Clusters | 2,108.0 x 5 (0.8%)
+              Q | 0.317
+            NMI | 0.000
+           Time | 0.3 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Leiden' (10x)
+       Clusters | 115.3 x 87 (4.8%)
+              Q | 0.459
+            NMI | 0.000
+           Time | 0.2 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Infomap' (10x)
+       Clusters | 979.0 x 10 (0.2%)
+              Q | 0.374
+            NMI | 0.000
+           Time | 0.4 sec
+
+          Graph | 'Erdös-Rényi'
+           Type | '---'
+          Nodes | 10,000 (1)
+          Edges | 50,000 (0)
+         Degree | 10.0 (0, 25)
+        Density | 0.00100010
+     Components | 100.0% (2)
+           Time | 0.0 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'LPA' (10x)
+       Clusters | 2.0 x 5,000 (100.0%)
+              Q | 0.000
+            NMI | 0.000
+           Time | 0.6 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Leiden' (10x)
+       Clusters | 23.2 x 431 (8.6%)
+              Q | 0.295
+            NMI | 0.000
+           Time | 0.3 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Infomap' (10x)
+       Clusters | 663.0 x 15 (0.3%)
+              Q | 0.213
+            NMI | 0.000
            Time | 0.7 sec
 
           Graph | 'Erdös-Rényi'
-      Algorithm | 'label propagation'
-       Clusters | 1 (10000.0)
-              Q | 0.000000
-            NMI | 1.000000
-            ARI | 1.000000
-           Time | 0.7 sec
+           Type | '---'
+          Nodes | 10,000 (0)
+          Edges | 75,000 (0)
+         Degree | 15.0 (4, 33)
+        Density | 0.00150015
+     Components | 100.0% (1)
+           Time | 0.1 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'LPA' (10x)
+       Clusters | 1.0 x 10,000 (100.0%)
+              Q | 0.000
+            NMI | 1.000
+           Time | 0.4 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Leiden' (10x)
+       Clusters | 8.9 x 1,124 (17.9%)
+              Q | 0.242
+            NMI | 0.000
+           Time | 0.5 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Infomap' (10x)
+       Clusters | 1.0 x 10,000 (100.0%)
+              Q | 0.000
+            NMI | 1.000
+           Time | 0.8 sec
+
+          Graph | 'Erdös-Rényi'
+           Type | '---'
+          Nodes | 10,000 (0)
+          Edges | 100,000 (0)
+         Degree | 20.0 (5, 38)
+        Density | 0.00200020
+     Components | 100.0% (1)
+           Time | 0.1 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'LPA' (10x)
+       Clusters | 1.0 x 10,000 (100.0%)
+              Q | 0.000
+            NMI | 1.000
+           Time | 0.4 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Leiden' (10x)
+       Clusters | 10.9 x 917 (13.9%)
+              Q | 0.205
+            NMI | 0.000
+           Time | 0.6 sec
+
+          Graph | 'Erdös-Rényi'
+      Algorithm | 'Infomap' (10x)
+       Clusters | 1.0 x 10,000 (100.0%)
+              Q | 0.000
+            NMI | 1.000
+           Time | 1.1 sec
 
           Graph | 'got-appearance'
            Type | '---'
           Nodes | 107 (0)
           Edges | 352 (0)
          Degree | 6.6 (1, 36)
+        Density | 0.06207018
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'got-appearance'
-         7-core | 14 (1)
+         k-core | 14
            Time | 0.0 sec
 
-['Jaime', 'Robert', 'Tyrion', 'Tywin', 'Arya', 'Cersei', 'Gregor', 'Joffrey', 'Sandor', 'Catelyn', 'Robb', 'Sansa', 'Stannis', 'Eddard']
+['Sandor', 'Cersei', 'Tyrion', 'Eddard', 'Arya', 'Gregor', 'Sansa', 'Joffrey', 'Catelyn', 'Stannis', 'Robert', 'Jaime', 'Tywin', 'Robb']
 
           Graph | 'diseasome'
            Type | '---'
           Nodes | 117 (0)
           Edges | 489 (0)
          Degree | 8.4 (5, 45)
+        Density | 0.07206012
      Components | 100.0% (1)
            Time | 0.0 sec
 
           Graph | 'diseasome'
-         5-core | 117 (1)
+         k-core | 117
            Time | 0.0 sec
 
 ['Breast Neoplasms', 'Stomach Neoplasms', 'Glomerulonephritis, IGA', 'Brain Neoplasms', 'Testicular Neoplasms', 'Ovarian Neoplasms', 'Colonic Neoplasms', 'Rectal Neoplasms', 'Kidney Neoplasms', 'Otosclerosis', 'Thymus Neoplasms', 'Gallbladder Neoplasms', 'Skin Neoplasms', 'Mucocutaneous Lymph Node Syndrome', 'Osteitis Deformans', 'Eye Neoplasms', 'Liver Neoplasms', 'Osteoporosis', 'Asthma', 'Migraine Disorders', 'Hypothyroidism', 'Narcolepsy', 'Bipolar Disorder', 'Arthritis, Rheumatoid', 'Parkinson Disease', 'Diabetes Mellitus, Type 2', 'Alzheimer Disease', 'Multiple Sclerosis', 'Coronary Artery Disease', 'Autistic Disorder', 'Conduct Disorder', 'Myocardial Ischemia', 'Diabetes Mellitus, Type 1', 'Cleft Lip', 'Atherosclerosis', 'Diabetes, Gestational', 'Glioma', 'Obesity', 'Hypertension', 'Metabolic Syndrome X', 'Anemia', 'Epilepsy', 'Scleroderma, Systemic', 'Myosarcoma', 'Leiomyoma', 'Uterine Neoplasms', 'Alopecia Areata', 'Vitiligo', 'Barrett Esophagus', 'Liver Cirrhosis, Biliary', 'Leprosy', 'Malaria', 'Nephrolithiasis', 'Hepatitis B', 'Depressive Disorder', 'Urinary Bladder Neoplasms', 'Graves Disease', 'Vaginal Neoplasms', 'Melanoma', 'Esophageal Neoplasms', "Fuchs' Endothelial Dystrophy", 'Hematologic Neoplasms', 'Dental Caries', 'Pancreatic Neoplasms', 'Laryngeal Neoplasms', 'Vulvar Neoplasms', 'Retroperitoneal Neoplasms', 'Ureteral Neoplasms', 'Bone Neoplasms', 'Meningeal Neoplasms', 'Glomerulosclerosis, Focal Segmental', 'Spinal Cord Neoplasms', 'Mediastinal Neoplasms', 'Prostatic Neoplasms', 'Vascular Neoplasms', 'Spondylitis, Ankylosing', 'Colitis, Ulcerative', 'Crohn Disease', 'Arthritis, Psoriatic', 'Pulmonary Disease, Chronic Obstructive', 'Schizophrenia', 'Pancreatitis', 'Panic Disorder', 'Refractive Errors', 'Creutzfeldt-Jakob Syndrome', 'Kidney Failure, Chronic', 'Coronary Disease', 'Lupus Erythematosus, Systemic', 'Behcet Syndrome', 'Mesothelioma', 'Bile Duct Neoplasms', 'Appendiceal Neoplasms', 'Adrenal Gland Neoplasms', 'Cholangitis, Sclerosing', 'Peripheral Nervous System Neoplasms', 'Arthritis, Gouty', 'Restless Legs Syndrome', 'Celiac Disease', 'Macular Degeneration', 'Periodontitis', 'Idiopathic Pulmonary Fibrosis', 'Intracranial Aneurysm', 'Glaucoma', 'Tourette Syndrome', 'Cardiomyopathy, Dilated', 'Aortic Aneurysm, Abdominal', 'Glomerulonephritis, Membranous', 'Aortic Aneurysm, Thoracic', 'Dermatitis, Atopic', 'Attention Deficit Disorder with Hyperactivity', 'Amyotrophic Lateral Sclerosis', 'Neoplasms, Germ Cell and Embryonal', 'Salivary Gland Neoplasms', 'Fallopian Tube Neoplasms', 'Head and Neck Neoplasms', 'Polycystic Ovary Syndrome', 'Jejunal Neoplasms']
@@ -183,28 +392,29 @@
           Nodes | 180 (29)
           Edges | 1,247 (0)
          Degree | 13.9 (0, 66)
+        Density | 0.07740534
      Components | 80.0% (33)
            Time | 0.0 sec
 
           Graph | 'wars'
-        33-core | 34 (1)
-           Time | 0.2 sec
+         k-core | 34
+           Time | 0.0 sec
 
-['ANT', 'ARG', 'BHM', 'BAR', 'BLZ', 'BOL', 'BRA', 'CAN', 'CHL', 'COL', 'COS', 'DMA', 'DOM', 'ECU', 'ELS', 'GRN', 'GUA', 'GUY', 'HAI', 'HON', 'JAM', 'MEX', 'NIC', 'PAN', 'PAR', 'PER', 'STK', 'STL', 'SVG', 'SUR', 'TRI', 'USA', 'URU', 'VZA']
+['BRA', 'PAN', 'HAI', 'TRI', 'SVG', 'ANT', 'HON', 'COL', 'ARG', 'ELS', 'BOL', 'VZA', 'PAR', 'JAM', 'DMA', 'GRN', 'NIC', 'DOM', 'STL', 'BAR', 'CAN', 'SUR', 'ECU', 'GUY', 'BLZ', 'CHL', 'COS', 'STK', 'URU', 'PER', 'USA', 'BHM', 'MEX', 'GUA']
 
           Graph | 'ingredients'
            Type | '---'
           Nodes | 1,525 (18)
           Edges | 221,777 (0)
          Degree | 290.9 (0, 989)
+        Density | 0.19084979
      Components | 98.1% (22)
-           Time | 0.5 sec
+           Time | 0.4 sec
 
           Graph | 'ingredients'
-       375-core | 416 (1)
-           Time | 571.5 sec
+         k-core | 416
+           Time | 1.9 sec
 
-['apple', 'apple_juice', 'apricot', 'ashanti_pepper', 'asparagus', 'avocado', 'bacon', 'baked_potato', 'banana', 'bantu_beer', 'bartlett_pear', 'bean', 'beef', 'beer', 'bell_pepper', 'berry', 'bilberry', 'bitter_orange', 'black_bean', 'black_chokeberry', 'black_chokecherry', 'black_currant', 'black_pepper', 'black_raspberry', 'black_seabream', 'black_tea', 'blackberry', 'blue_cheese', 'blueberry', 'bog_blueberry', 'boiled_beef', 'boiled_chicken', 'boiled_crab', 'boiled_meat', 'boiled_mutton', 'boiled_pork', 'botrytized_wine', 'brandy', 'brazil_nut', 'bread', 'brewed_tea', 'broccoli', 'brown_rice', 'buckwheat', 'butter', 'cabbage', 'cabernet_sauvignon_grape', 'cabernet_sauvignon_wine', 'calamus', 'california_orange', 'california_pepper', 'camembert_cheese', 'cantaloupe', 'cape_gooseberry', 'capsicum', 'capsicum_annuum', 'cardamom', 'carrot', 'cashew', 'cassia', 'catfish', 'cauliflower', 'cayenne', 'celery', 'ceylon_tea', 'champagne_wine', 'cheddar_cheese', 'cheese', 'cherimoya', 'cherry', 'chicken', 'chinese_quince', 'chokeberry', 'cider', 'cilantro', 'cinnamon', 'citrus', 'citrus_juice', 'citrus_peel', 'citrus_peel_oil', 'clam', 'clary_sage', 'cloudberry', 'clove', 'cocoa', 'coconut', 'cod', 'coffee', 'cognac', 'comte_cheese', 'concord_grape', 'cooked_apple', 'coriander', 'corn', 'corn_mint', 'corn_oil', 'cottage_cheese', 'cowberry', 'crab', 'cranberry', 'crayfish', 'cream', 'cream_cheese', 'crisp_bread', 'crowberry', 'crownberry', 'cucumber', 'cured_ham', 'cured_pork', 'currant', 'dill', 'domiati_cheese', 'dried_black_tea', 'dried_fig', 'dried_green_tea', 'dried_kidney_bean', 'dried_parsley', 'dwarf_quince', 'eel', 'egg', 'elderberry', 'emmental_cheese', 'endive', 'enokidake', 'ethiopian_pepper', 'european_cranberry', 'ewe', 'fatty_fish', 'fenugreek', 'fermented_russian_black_tea', 'fermented_shrimp', 'fermented_tea', 'feta_cheese', 'fig', 'filbert', 'fish', 'fish_oil', 'frankfurter', 'french_bean', 'french_fried_potato', 'french_lavender', 'french_peppermint', 'fried_beef', 'fried_chicken', 'fried_cured_pork', 'fried_pork', 'fruit_brandy', 'garlic', 'geranium', 'gin', 'ginger', 'globefish', 'goat_cheese', 'grape', 'grapefruit', 'grapefruit_juice', 'green_bell_pepper', 'green_tea', 'grilled_beef', 'grilled_pork', 'gruyere_cheese', 'guava', 'guinea_pepper', 'guineafowl', 'haddock', 'ham', 'hazelnut', 'herring', 'honey', 'hop', 'hop_oil', 'horse_mackerel', 'huckleberry', 'israeli_orange', 'italian_lime', 'jackfruit', 'jamaican_rum', 'japanese_mint', 'japanese_peppermint', 'jasmine_tea', 'java_citronella', 'juniper_berry', 'kaffir_lime', 'katsuobushi', 'keta_salmon', 'kidney_bean', 'kiwi', 'kohlrabi', 'kola_nut', 'kola_tea', 'lamb', 'laurel', 'lavandin', 'lavender', 'leaf', 'lean_fish', 'leek', 'lemon', 'lemon_balm', 'lemongrass', 'licorice', 'lima_bean', 'limburger_cheese', 'lime', 'lingonberry', 'litchi', 'loganberry', 'long_pepper', 'loquat', 'lovage', 'macadamia_nut', 'mace', 'mackerel', 'malagueta_pepper', 'malt', 'mandarin', 'mango', 'mantis_shrimp', 'marjoram', 'mashed_potato', 'mastic_gum', 'mastic_gum_oil', 'mate', 'matsutake', 'meat', 'melon', 'mexican_lime', 'milk', 'mint', 'mint_oil', 'monkey_orange', 'mountain_papaya', 'mozzarella_cheese', 'mung_bean', 'munster_cheese', 'muscadine_grape', 'muscat_grape', 'mushroom', 'muskmelon', 'mustard', 'mutton', 'myrtleberry', 'navy_bean', 'nectarine', 'neroli', 'neroli_oil', 'nut', 'nutmeg', 'oat', 'okra', 'olive', 'onion', 'orange', 'orange_juice', 'oyster', 'papaya', 'parmesan_cheese', 'parsley', 'passion_fruit', 'pea', 'peach', 'peanut', 'peanut_butter', 'peanut_oil', 'pear', 'pecan', 'pepper', 'peppermint', 'peppermint_oil', 'petitgrain', 'pike', 'pilchard', 'pineapple', 'pinto_bean', 'pistachio', 'plum', 'plumcot', 'porcini', 'pork', 'pork_sausage', 'port_wine', 'potato', 'pouching_tea', 'prickly_pear', 'provolone_cheese', 'prune', 'quince', 'rabbiteye_blueberry', 'radish', 'raisin', 'raspberry', 'raw_bean', 'raw_beef', 'raw_cabbage', 'raw_chicken', 'raw_fatty_fish', 'raw_fish', 'raw_lamb', 'raw_lean_fish', 'raw_leek', 'raw_pea', 'raw_peanut', 'raw_pork', 'raw_potato', 'raw_radish', 'raw_turkey', 'red_bean', 'red_currant', 'red_kidney_bean', 'red_meat', 'red_wine', 'rice', 'roasted_beef', 'roasted_chicken', 'roasted_cocoa', 'roasted_coconut', 'roasted_filbert', 'roasted_green_tea', 'roasted_hazelnut', 'roasted_lamb', 'roasted_macadamia_nut', 'roasted_malt', 'roasted_mate', 'roasted_meat', 'roasted_nut', 'roasted_onion', 'roasted_peanut', 'roasted_pecan', 'roasted_pork', 'roasted_sesame_seed', 'roasted_shrimp', 'roasted_turkey', 'roman_chamomile', 'roman_chamomile_oil', 'romano_cheese', 'rooibus_tea', 'roquefort_cheese', 'rose', 'rose_apple', 'rose_wine', 'rosemary', 'rum', 'russian_cheese', 'rye_bread', 'sake', 'salmon', 'satsuma', 'sauerkraut', 'sauvignon_blanc_grape', 'sauvignon_grape', 'scallop', 'scotch_spearmint', 'scotch_spearmint_oil', 'sea_bass', 'seal', 'sesame_seed', 'seychelles_tea', 'sheep_cheese', 'sherry', 'shiitake', 'shrimp', 'smoked_fatty_fish', 'smoked_fish', 'smoked_herring', 'smoked_pork', 'smoked_pork_belly', 'smoked_salmon', 'smoked_sausage', 'smoked_summer_sausage', 'snap_bean', 'sour_cherry', 'southern_pea', 'soybean', 'sparkling_wine', 'spearmint', 'spearmint_oil', 'starfruit', 'strawberry', 'sweet_grass_oil', 'sweetfish', 'swiss_cheese', 'tabasco_pepper', 'tamarind', 'tangerine', 'tea', 'thai_pepper', 'thyme', 'tilsit_cheese', 'toasted_oat', 'toasted_sesame_seed', 'tobacco', 'tomato', 'trassi', 'truffle', 'tuna', 'turkey', 'uncured_boiled_pork', 'uncured_pork', 'uncured_smoked_pork', 'vanilla', 'veal', 'vinegar', 'walnut', 'whale', 'wheat_bread', 'wheaten_bread', 'whiskey', 'white_bread', 'white_wine', 'whitefish', 'wild_berry', 'wild_raspberry', 'wild_strawberry', 'wine', 'wort', 'yogurt']
+['red_currant', 'hazelnut', 'cardamom', 'loganberry', 'wild_strawberry', 'cured_pork', 'fermented_shrimp', 'tea', 'cherimoya', 'mastic_gum', 'sauvignon_grape', 'ceylon_tea', 'rose', 'cilantro', 'provolone_cheese', 'rose_apple', 'roasted_cocoa', 'champagne_wine', 'catfish', 'blackberry', 'hop', 'asparagus', 'black_bean', 'lemongrass', 'apple_juice', 'dwarf_quince', 'roasted_hazelnut', 'red_kidney_bean', 'dried_parsley', 'tabasco_pepper', 'chinese_quince', 'lean_fish', 'cauliflower', 'port_wine', 'cashew', 'rum', 'quince', 'cooked_apple', 'fruit_brandy', 'citrus_peel_oil', 'black_pepper', 'roasted_macadamia_nut', 'sake', 'eel', 'whitefish', 'huckleberry', 'black_tea', 'chicken', 'geranium', 'guava', 'domiati_cheese', 'raw_leek', 'mushroom', 'lavender', 'bartlett_pear', 'peach', 'raw_pork', 'lemon', 'cider', 'celery', 'scotch_spearmint', 'laurel', 'mate', 'horse_mackerel', 'dried_kidney_bean', 'smoked_salmon', 'fish', 'tangerine', 'french_lavender', 'brewed_tea', 'dried_fig', 'beef', 'fig', 'apple', 'turkey', 'vinegar', 'mackerel', 'neroli', 'tamarind', 'ham', 'raw_cabbage', 'roasted_onion', 'muscadine_grape', 'japanese_mint', 'sea_bass', 'black_seabream', 'roasted_sesame_seed', 'passion_fruit', 'strawberry', 'lamb', 'capsicum_annuum', 'california_pepper', 'chokeberry', 'bitter_orange', 'baked_potato', 'crowberry', 'boiled_chicken', 'clam', 'grapefruit_juice', 'malt', 'neroli_oil', 'mace', 'sherry', 'ashanti_pepper', 'pineapple', 'fried_chicken', 'potato', 'seychelles_tea', 'blue_cheese', 'marjoram', 'pecan', 'black_chokeberry', 'oyster', 'roasted_lamb', 'red_bean', 'pea', 'grilled_beef', 'citrus_peel', 'corn_mint', 'ginger', 'milk', 'melon', 'cognac', 'bell_pepper', 'fried_pork', 'citrus_juice', 'mashed_potato', 'whale', 'cod', 'herring', 'matsutake', 'enokidake', 'cabernet_sauvignon_grape', 'coriander', 'sauerkraut', 'roasted_malt', 'walnut', 'avocado', 'beer', 'scotch_spearmint_oil', 'frankfurter', 'globefish', 'citrus', 'malagueta_pepper', 'veal', 'fried_cured_pork', 'pinto_bean', 'cinnamon', 'prickly_pear', 'roasted_peanut', 'lovage', 'rooibus_tea', 'raw_turkey', 'wild_berry', 'bean', 'goat_cheese', 'french_fried_potato', 'muskmelon', 'litchi', 'russian_cheese', 'spearmint', 'endive', 'cheddar_cheese', 'mustard', 'juniper_berry', 'scallop', 'raspberry', 'roasted_meat', 'cassia', 'roasted_pork', 'roman_chamomile_oil', 'boiled_mutton', 'brown_rice', 'limburger_cheese', 'boiled_pork', 'grapefruit', 'sour_cherry', 'peanut_oil', 'smoked_herring', 'yogurt', 'smoked_pork', 'vanilla', 'salmon', 'okra', 'butter', 'fermented_tea', 'cayenne', 'broccoli', 'corn_oil', 'berry', 'brandy', 'smoked_fatty_fish', 'kaffir_lime', 'cowberry', 'crisp_bread', 'feta_cheese', 'red_wine', 'raw_bean', 'mantis_shrimp', 'papaya', 'apricot', 'lima_bean', 'munster_cheese', 'mozzarella_cheese', 'smoked_sausage', 'jasmine_tea', 'bantu_beer', 'raw_radish', 'haddock', 'fenugreek', 'black_currant', 'java_citronella', 'mastic_gum_oil', 'fatty_fish', 'rosemary', 'sweetfish', 'rye_bread', 'kola_nut', 'kidney_bean', 'clove', 'nectarine', 'kiwi', 'concord_grape', 'nut', 'uncured_pork', 'smoked_fish', 'black_chokecherry', 'honey', 'toasted_sesame_seed', 'peppermint', 'rabbiteye_blueberry', 'parmesan_cheese', 'cottage_cheese', 'roasted_nut', 'seal', 'meat', 'rose_wine', 'trassi', 'soybean', 'crownberry', 'orange', 'french_bean', 'pear', 'gruyere_cheese', 'mung_bean', 'mexican_lime', 'white_bread', 'cheese', 'prune', 'gin', 'french_peppermint', 'loquat', 'jamaican_rum', 'roasted_turkey', 'romano_cheese', 'sweet_grass_oil', 'fried_beef', 'sheep_cheese', 'plumcot', 'pilchard', 'raw_potato', 'toasted_oat', 'bread', 'rice', 'roasted_filbert', 'banana', 'cream', 'european_cranberry', 'radish', 'swiss_cheese', 'raw_pea', 'currant', 'boiled_beef', 'coconut', 'spearmint_oil', 'hop_oil', 'myrtleberry', 'peanut_butter', 'southern_pea', 'navy_bean', 'green_tea', 'tuna', 'onion', 'raisin', 'raw_fatty_fish', 'pork_sausage', 'orange_juice', 'peanut', 'jackfruit', 'filbert', 'boiled_crab', 'wine', 'ethiopian_pepper', 'italian_lime', 'truffle', 'israeli_orange', 'dried_black_tea', 'green_bell_pepper', 'mango', 'plum', 'roasted_pecan', 'thai_pepper', 'cucumber', 'emmental_cheese', 'smoked_pork_belly', 'white_wine', 'mountain_papaya', 'bilberry', 'roasted_beef', 'crayfish', 'thyme', 'wort', 'pistachio', 'ewe', 'lime', 'dried_green_tea', 'muscat_grape', 'cabbage', 'botrytized_wine', 'california_orange', 'mint_oil', 'lavandin', 'wild_raspberry', 'garlic', 'cranberry', 'katsuobushi', 'keta_salmon', 'roasted_green_tea', 'calamus', 'starfruit', 'camembert_cheese', 'guinea_pepper', 'roman_chamomile', 'sparkling_wine', 'wheaten_bread', 'elderberry', 'mandarin', 'whiskey', 'brazil_nut', 'comte_cheese', 'raw_chicken', 'oat', 'peppermint_oil', 'tilsit_cheese', 'black_raspberry', 'leaf', 'guineafowl', 'pouching_tea', 'cured_ham', 'corn', 'pork', 'wheat_bread', 'olive', 'tobacco', 'long_pepper', 'raw_lamb', 'cherry', 'mutton', 'grilled_pork', 'shiitake', 'raw_peanut', 'cocoa', 'sesame_seed', 'sauvignon_blanc_grape', 'smoked_summer_sausage', 'kola_tea', 'cabernet_sauvignon_wine', 'roasted_coconut', 'roasted_shrimp', 'red_meat', 'cream_cheese', 'leek', 'nutmeg', 'monkey_orange', 'uncured_smoked_pork', 'cape_gooseberry', 'raw_fish', 'uncured_boiled_pork', 'shrimp', 'parsley', 'roasted_mate', 'cantaloupe', 'mint', 'grape', 'fermented_russian_black_tea', 'capsicum', 'boiled_meat', 'coffee', 'roquefort_cheese', 'clary_sage', 'bacon', 'egg', 'macadamia_nut', 'carrot', 'blueberry', 'cloudberry', 'crab', 'licorice', 'japanese_peppermint', 'pepper', 'buckwheat', 'petitgrain', 'porcini', 'fish_oil', 'raw_lean_fish', 'lemon_balm', 'pike', 'raw_beef', 'satsuma', 'lingonberry', 'roasted_chicken', 'snap_bean', 'bog_blueberry', 'tomato', 'kohlrabi', 'dill']
 
-          Total | 581.0 sec
-
+          Total | 713.3 sec

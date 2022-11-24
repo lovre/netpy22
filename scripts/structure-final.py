@@ -87,7 +87,7 @@ def deg_dist(G):
   plt.title(G.name)
   plt.show()
 
-tic = time()
+toc = time()
 
 # Constructs small toy graph
 
@@ -145,4 +145,4 @@ for file in ['karate', 'women', 'dolphins', 'ingredients', 'darknet', 'ppi', 'in
 
   graph_info(BA)
 
-print("{0:>15s} | {1:.1f} sec\n".format('Total', time() - tic))
+print("{0:>15s} | {1:.1f} sec\n".format('Total', time() - toc))

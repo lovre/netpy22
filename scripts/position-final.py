@@ -61,7 +61,7 @@ def top_nodes(G, centrality, label, n = 15):
     print("{0:>15.8f} | '{1:s}' ({2:,d})".format(c, i, G.degree(i)))
   print()
 
-tic = time()
+toc = time()
 
 for file in ['got-kills', 'lpp', 'ingredients', 'imdb']:
 
@@ -93,4 +93,4 @@ for file in ['got-kills', 'lpp', 'ingredients', 'imdb']:
   top_nodes(G, nx.closeness_centrality(G), 'closeness')
   top_nodes(G, nx.betweenness_centrality(G), 'betweenness')
 
-print("{0:>15s} | {1:.1f} sec\n".format('Total', time() - tic))
+print("{0:>15s} | {1:.1f} sec\n".format('Total', time() - toc))
