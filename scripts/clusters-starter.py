@@ -131,3 +131,7 @@ graph_info(G)
 clusters_info(G, lambda G: algorithms.girvan_newman(G, level = 1), 'betweenness')
 
 print("{0:>15s} | {1:.1f} sec\n".format('Total', time() - tic))
+
+# 'karate', 'dolphins', 'women'
+
+# 'got-appearance', 'diseasome', 'wars', 'ingredients'
