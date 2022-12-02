@@ -128,7 +128,7 @@ for file in ['karate', 'women', 'dolphins', 'ingredients', 'darknet', 'ppi', 'in
 
   # Plots degree distribution of real network
 
-  if n > 5000 or True:
+  if n > 5000:
     deg_dist(G)
 
   # Prints out statistics of Erdös-Rényi random graph
